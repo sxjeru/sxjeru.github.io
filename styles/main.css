@@ -360,6 +360,7 @@ ul li {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  justify-content: space-between;
 }
 .gt-post-content {
   word-break: normal;
@@ -649,6 +650,7 @@ ul li {
   flex-direction: column;
   align-items: center;
   min-height: 100%;
+  flex: 1;
 }
 .post-container .post-detail {
   flex: 1;
@@ -719,12 +721,15 @@ ul li {
   align-self: start;
 }
 .archives-container .post {
+  float: left;
   padding: 16px 0;
 }
 .archives-container .post .post-title {
+  float: left;
   font-size: 16px;
 }
 .archives-container .post .post-title small {
+  float: left;
   font-size: 80%;
 }
 @media (max-width: 600px) {
@@ -739,10 +744,11 @@ ul li {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .tags-container .tag {
   font-size: 15px;
-  margin-right: 20px;
+  margin: 5px 15px;
 }
 .current-tag-container .title {
   text-align: center;
@@ -775,6 +781,73 @@ ul li {
 }
 .site-footer .footer-info {
   padding-bottom: 10px;
+}
+.friend-box {
+  float: left;
+  max-width: calc(50% - 20px);
+  min-width: calc(50% - 20px);
+  margin: 15px 10px;
+  background-color: rgba(20, 153, 196, 0.125);
+  padding: 15px;
+  border-radius: 15px;
+}
+.friend-box img.friend-avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50% !important;
+  float: left;
+  margin: 0 15px 0 0 !important;
+}
+.friend-box .flink-info {
+  height: 70px;
+  overflow: hidden;
+  line-height: 24px;
+  padding-left: 30px;
+  font-size: 14px;
+}
+.friend-box .flink-info a {
+  font-size: 18px;
+  background: linear-gradient(180deg, transparent 75%, rgba(116, 192, 252, 0.4) 0);
+  margin-bottom: 10px;
+}
+.friend-box .flink-info .flink-info-desc {
+  margin-top: 10px;
+}
+@media (max-width: 993px) {
+  .friend-box {
+    max-width: 90% !important;
+  }
+}
+@media (max-width: 465px) {
+  .flink-info-desc {
+    display: none;
+  }
+}
+#gridea-search-form .search-input {
+  position: relative;
+  left: -2px;
+  width: 180px;
+  height: 30px;
+  padding: 0 0 2px 35px;
+  font-size: 12px;
+  background-size: 20px;
+  border: 0;
+  border-radius: 15px;
+  border-bottom-color: currentcolor;
+  border-bottom-style: none;
+  border-bottom-width: medium;
+  outline: 0;
+  border-bottom: 2px #495057;
+  transition: border-color 0.2s;
+}
+@media (max-width: 992px) {
+  #gridea-search-form .fa-search {
+    visibility: hidden;
+  }
+}
+.searching,
+.no-result {
+  text-align: center;
 }
 /*
 
@@ -848,6 +921,29 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
 }
 .hljs-strong {
   font-weight: bold;
+}
+/* 代码滑块 */
+pre::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+pre::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: #cbcbcb;
+}
+pre::-webkit-scrollbar-thumb:hover {
+  background-color: #bbb;
+}
+code::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+code::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background-color: #cbcbcb;
+}
+code::-webkit-scrollbar-thumb:hover {
+  background-color: #bbb;
 }
 @font-face {
   font-family: KaTeX_AMS;
@@ -1727,19 +1823,19 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
 }
 
         .gt-bg-theme-color-first {
-          background: #ffffff!important;
+          background: #181A1B!important;
         }
         
         .gt-bg-theme-color-second {
-          background: #dddddd!important;
+          background: #2B2F31!important;
         }
         
         .gt-bg-content-color-first {
-          background: #5f6169!important;
+          background: #ced4da!important;
         }
         
         .gt-bg-content-color-second {
-          background: #999fa7!important;
+          background: #868e96!important;
         }
         
         .gt-bg-accent-color-first {
@@ -1751,19 +1847,19 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
         }
         
         .gt-c-theme-color-first {
-          color: #ffffff!important;
+          color: #181A1B!important;
         }
         
         .gt-c-theme-color-second {
-          color: #dddddd!important;
+          color: #2B2F31!important;
         }
         
         .gt-c-content-color-first {
-          color: #5f6169!important;
+          color: #ced4da!important;
         }
         
         .gt-c-content-color-second {
-          color: #999fa7!important;
+          color: #868e96!important;
         }
         
         .gt-c-accent-color-first {
@@ -1775,7 +1871,7 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
         }
         
         body {
-          color: #5f6169!important;
+          color: #ced4da!important;
         }
         
         a {
@@ -1784,20 +1880,20 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
         
         .post-content h1 {
           display: inline-block;
-          color: #5f6169!important;
+          color: #ced4da!important;
           position: relative!important;
           background: linear-gradient(180deg, transparent 75%, RGBA(132,250,176,0.4) 0)!important;
         }
         
         .post-content h2 {
           display: inline-block;
-          color: #5f6169!important;
+          color: #ced4da!important;
           position: relative!important;
           background: linear-gradient(180deg, transparent 75%, RGBA(132,250,176,0.4) 0)!important;
         }
         
         .gt-a-link {
-          color: #5f6169!important;
+          color: #ced4da!important;
           position: relative!important;
           background: linear-gradient(180deg, transparent 75%, RGBA(132,250,176,0.4) 0)!important;
         }
@@ -1813,5 +1909,14 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
         
         .gt-post-content code {
           background: RGBA(132,250,176,0.2)!important;
+        }
+        
+        input::placeholder {
+          color: #868e96!important;
+        }
+        
+        .search-input {
+          color: #ced4da!important;
+          background-color: #2B2F31!important;
         }
          
