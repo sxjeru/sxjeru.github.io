@@ -1920,11 +1920,3 @@ code::-webkit-scrollbar-thumb:hover {
           background-color: #2B2F31!important;
         }
          
-      .gt-container .gt-comment-admin .gt-comment-content {
-    background-color: rgb(27, 29, 30);
-}
-constructed stylesheet
-.gt-container .gt-comment-content:hover {
-    box-shadow: rgb(30, 33, 34) 0px 0.625em 3.75em 0px;
-}
-    
