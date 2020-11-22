@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sxjeru.github.io</id>
     <title>Eru&apos;s Home</title>
-    <updated>2020-11-22T02:33:18.516Z</updated>
+    <updated>2020-11-22T02:41:42.880Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sxjeru.github.io"/>
     <link rel="self" href="https://sxjeru.github.io/atom.xml"/>
@@ -17,8 +17,7 @@
         </link>
         <updated>2020-11-22T01:54:23.000Z</updated>
         <content type="html"><![CDATA[<p>新的开始？</p>
-<link rel="stylesheet"
-      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.0/styles/default.min.css">
+<link rel="alternate stylesheet" title="Night Owl" href="styles/night-owl.css">
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.0/highlight.min.js"></script>
 <pre><code>
 #include &lt;iostream&gt;
