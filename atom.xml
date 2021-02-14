@@ -2,14 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sxjeru.github.io</id>
     <title>Eru&apos;s Home</title>
-    <updated>2020-11-22T03:48:29.125Z</updated>
+    <updated>2021-02-14T07:40:47.552Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sxjeru.github.io"/>
     <link rel="self" href="https://sxjeru.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
     <logo>https://sxjeru.github.io/images/avatar.png</logo>
     <icon>https://sxjeru.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Eru&apos;s Home</rights>
+    <rights>All rights reserved 2021, Eru&apos;s Home</rights>
     <entry>
         <title type="html"><![CDATA[Hello World!]]></title>
         <id>https://sxjeru.github.io/post/hello-world/</id>
@@ -36,7 +36,9 @@ int main()
 （不过Gridea手感确实不错，会变主站也说不定……）</p>
 <p>体验建站的感觉也不错嘛，打算再来个Hexo~</p>
 <figure data-type="image" tabindex="1"><img src="https://sxjeru.github.io/post-images/1606014754371.png" alt="pixiv" loading="lazy"></figure>
-<center>Pixiv id: 53242345</center>]]></content>
+<center>Pixiv id: 53242345</center>
+<p><audio src="http://sxj.mcmod.cn/DFM2_BGM_a_night_sky.mp3" controls="" ></audio></p>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
