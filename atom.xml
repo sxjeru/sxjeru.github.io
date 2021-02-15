@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sxjeru.github.io</id>
     <title>Eru&apos;s Home</title>
-    <updated>2021-02-14T08:35:43.102Z</updated>
+    <updated>2021-02-15T11:44:33.857Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sxjeru.github.io"/>
     <link rel="self" href="https://sxjeru.github.io/atom.xml"/>
@@ -35,9 +35,11 @@ int main()
 <p>并不是，由于国内对<a href="https://sxjeru.wordpress.com/">主站</a>（WordPress）的友好度不断下降，且网站无法被国内搜索引擎收录，只得搭建这个备用站。<br>
 （不过Gridea手感确实不错，会变主站也说不定……）</p>
 <p>体验建站的感觉也不错嘛，打算再来个Hexo~</p>
-<figure data-type="image" tabindex="1"><img src="https://sxjeru.github.io/post-images/1606014754371.png" alt="pixiv" loading="lazy"></figure>
+<p>###图片测试~<br>
+<img src="https://sxjeru.github.io/post-images/1606014754371.png" alt="pixiv" loading="lazy"></p>
 <center>Pixiv id: 53242345</center>
-<p><audio src="http://sxj.mcmod.cn/DFM2_BGM_a_night_sky.mp3" controls="" ></audio></p>
+<p>###音乐测试~<br>
+<audio src="http://sxj.mcmod.cn/DFM2_BGM_a_night_sky.mp3" controls="" ></audio></p>
 ]]></content>
     </entry>
     <entry>
