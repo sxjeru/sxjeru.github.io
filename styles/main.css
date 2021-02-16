@@ -1921,8 +1921,14 @@ code::-webkit-scrollbar-thumb:hover {
         }
          
       hr {
-    border-top-color: rgb(255 163 197 / 51%);
+    border: none;
+    border-top: 2px dashed;
+    border-top-color: rgb(234 160 198 / 52%);
     margin-top: 3rem;
     margin-bottom: 3rem;
+}
+.post-list-container .post-inner .post .post-feature-image {
+    background-size: contain;
+    background-repeat: no-repeat;
 }
     
