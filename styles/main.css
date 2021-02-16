@@ -1931,4 +1931,7 @@ code::-webkit-scrollbar-thumb:hover {
     background-size: contain;
     background-repeat: no-repeat;
 }
+.gt-post-content {
+    font-size: 16px;
+}
     
