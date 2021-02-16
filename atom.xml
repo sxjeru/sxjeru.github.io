@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sxjeru.github.io</id>
     <title>Eru&apos;s Home</title>
-    <updated>2021-02-16T03:49:20.623Z</updated>
+    <updated>2021-02-16T04:00:28.373Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sxjeru.github.io"/>
     <link rel="self" href="https://sxjeru.github.io/atom.xml"/>
@@ -10,6 +10,19 @@
     <logo>https://sxjeru.github.io/images/avatar.png</logo>
     <icon>https://sxjeru.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Eru&apos;s Home</rights>
+    <entry>
+        <title type="html"><![CDATA[💖 请始终记住，这只是一个备用站点——]]></title>
+        <id>https://sxjeru.github.io/post/-1/</id>
+        <link href="https://sxjeru.github.io/post/-1/">
+        </link>
+        <updated>2021-02-16T03:54:17.000Z</updated>
+        <summary type="html"><![CDATA[<p>Blog主站：<a href="https://sxjeru.wordpress.com/">https://sxjeru.wordpress.com/</a><br>
+导航页：<a href="http://sxj.mcmod.cn/">http://sxj.mcmod.cn/</a></p>
+]]></summary>
+        <content type="html"><![CDATA[<p>Blog主站：<a href="https://sxjeru.wordpress.com/">https://sxjeru.wordpress.com/</a><br>
+导航页：<a href="http://sxj.mcmod.cn/">http://sxj.mcmod.cn/</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【RPG】Pray game 游戏推荐]]></title>
         <id>https://sxjeru.github.io/post/3/</id>
