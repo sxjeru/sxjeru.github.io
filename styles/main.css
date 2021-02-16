@@ -1921,11 +1921,11 @@ code::-webkit-scrollbar-thumb:hover {
         }
          
       hr {
-    border: none;
-    border-top: 2px dashed;
-    border-top-color: rgb(234 160 198 / 52%);
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    border: none !important;
+    border-top: 2px dashed !important;
+    border-top-color: rgb(234 160 198 / 52%) !important;
+    margin-top: 4rem !important;
+    margin-bottom: 4rem !important;
 }
 .post-list-container .post-inner .post .post-feature-image {
     background-size: contain;

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sxjeru.github.io</id>
     <title>Eru&apos;s Home</title>
-    <updated>2021-02-16T03:00:30.518Z</updated>
+    <updated>2021-02-16T03:08:39.521Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sxjeru.github.io"/>
     <link rel="self" href="https://sxjeru.github.io/atom.xml"/>
@@ -77,9 +77,8 @@
 <br>
 <h3><strong><span style="color: #ff0000;" data-darkreader-inline-color="">前排注意：任何解包行为需把握资源用途，为尊重作品著作权，请勿用于商业行为或大范围传播！</span></strong></h3>
 <h3><span style="color: #3366ff;" data-darkreader-inline-color=""><strong>此处仅提供教程与经验，无资源。</strong></span></h3>
-本人共计探索了超过4天，终于摸透了包里的数据。目前除了3D模型还未测试（已可提取），其余资源都可成功提取。<br>
-<br>
-大体流程（目录）：
+<p>本人共计探索了超过4天，终于摸透了包里的数据。目前除了3D模型还未测试（已可提取），其余资源都可成功提取。<br><br>
+大体流程（目录）：</p>
 <ol>
  	<li>PAK数据包解包</li>
  	<li>虚幻4资源文件提取（CG get~）</li>
@@ -94,9 +93,8 @@
 <br>
 <h3><strong><span style="color: #ff0000;" data-darkreader-inline-color="">前排注意：任何解包行为需把握资源用途，为尊重作品著作权，请勿用于商业行为或大范围传播！</span></strong></h3>
 <h3><span style="color: #3366ff;" data-darkreader-inline-color=""><strong>此处仅提供教程与经验，无资源。</strong></span></h3>
-本人共计探索了超过4天，终于摸透了包里的数据。目前除了3D模型还未测试（已可提取），其余资源都可成功提取。<br>
-<br>
-大体流程（目录）：
+<p>本人共计探索了超过4天，终于摸透了包里的数据。目前除了3D模型还未测试（已可提取），其余资源都可成功提取。<br><br>
+大体流程（目录）：</p>
 <ol>
  	<li>PAK数据包解包</li>
  	<li>虚幻4资源文件提取（CG get~）</li>
@@ -113,7 +111,7 @@
 <p>一、裂解PAK</p>
 <p>或许是幸运，或许是“自知之明”，总之地雷社没有给ALC的数据包加密，这也使得解包变得异常简单。这一步并没有坑，因而也就没有探索文字啦。</p>
 <ol>
- 	<li>准备解包工具QuickBMS（<a href="https://aluigi.altervista.org/quickbms.htm" target="_blank" rel="noopener">官网</a>、<a href="http://sxj.mcmod.cn/tutorial/quickbms.zip">网盘</a>）与UE4解包脚本（<a href="https://aluigi.altervista.org/quickbms.htm" target="_blank" rel="noopener">官网同上</a>、<a href="http://sxj.mcmod.cn/tutorial/unreal_tournament_4.bms">网盘</a>）。<img class="alignnone  wp-image-274" src="http://sxj.mcmod.cn/images/znarqh5exmviggm.png" alt="znarqh5exmviggm" width="1440" height="750"></li>
+ 	<li>准备解包工具QuickBMS（<a href="https://aluigi.altervista.org/quickbms.htm" target="_blank" rel="noopener">官网</a>、<a href="http://sxj.mcmod.cn/tutorial/quickbms.zip">网盘</a>）与UE4解包脚本（<a href="https://aluigi.altervista.org/quickbms.htm" target="_blank" rel="noopener">官网同上</a>、<a href="http://sxj.mcmod.cn/tutorial/unreal_tournament_4.bms">网盘</a>）。<img class="alignnone  wp-image-274" src="http://sxj.mcmod.cn/images/znarqh5exmviggm.png" alt="znarqh5exmviggm"></li>
  	<li>双击“quickbms.exe”，依次选择脚本、PAK数据包（通常位于“~\Azur Lane Crosswave\Azurlane\Content\Paks”）、解包位置（资源保存至何处）。</li>
  	<li>等待……&nbsp; Done！</li>
 </ol>
