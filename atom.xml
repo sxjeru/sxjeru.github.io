@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sxjeru.github.io</id>
     <title>Eru&apos;s Home</title>
-    <updated>2021-02-16T03:21:01.284Z</updated>
+    <updated>2021-02-16T03:31:38.837Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sxjeru.github.io"/>
     <link rel="self" href="https://sxjeru.github.io/atom.xml"/>
@@ -71,8 +71,7 @@
         </link>
         <updated>2021-02-15T14:09:50.000Z</updated>
         <summary type="html"><![CDATA[<details>
-<summary>
-无关紧要的话（点击查看）</summary>
+<summary>无关紧要的话（点击查看）</summary>
 2020年情人节，<a href="https://store.steampowered.com/app/1150080/" target="_blank" rel="noopener">Azur Lane Crosswave</a>（以下简称ALC）正式在Steam上发售。本以为吾等手游绝缘体这辈子没机会玩一回碧蓝，机会居然自己跑来了。目前主线S评级全通，也懒得再肝下去，就动起了拆包的念头。毕竟虽然Steam上评价有些惨，不过本人觉得建模与CG还可以。
 <br><br>
 （话说这立绘该不会直接搬的手游上的吧……）
@@ -90,8 +89,7 @@
 </ol>
 ]]></summary>
         <content type="html"><![CDATA[<details>
-<summary>
-无关紧要的话（点击查看）</summary>
+<summary>无关紧要的话（点击查看）</summary>
 2020年情人节，<a href="https://store.steampowered.com/app/1150080/" target="_blank" rel="noopener">Azur Lane Crosswave</a>（以下简称ALC）正式在Steam上发售。本以为吾等手游绝缘体这辈子没机会玩一回碧蓝，机会居然自己跑来了。目前主线S评级全通，也懒得再肝下去，就动起了拆包的念头。毕竟虽然Steam上评价有些惨，不过本人觉得建模与CG还可以。
 <br><br>
 （话说这立绘该不会直接搬的手游上的吧……）
@@ -125,15 +123,14 @@
 <p>二、渗透UE4</p>
 <p>ALC采用UE4（v4.21.2.0）游戏引擎，导致所有资源文件都被“加密”成uasset、uexp等文件，如何将这些还原成原始文件是这一关的核心任务。</p>
 <details>
-<summary>
-吐槽——（点击查看）</summary>
+<summary>吐槽——（点击查看）</summary>
 手贱用umodel选游戏路径时把所有解包出来的资源文件全选了，结果分析就花了半个多小时……
 <p>而且umodel稳定性也不太好，在我手上至少崩了30多回。另外它无法提取所有文件，这可着实坑惨我了……</p>
 </details><br>
 <ol>
  	<li>准备提取工具UE Viewer（<a href="https://www.gildor.org/en/projects/umodel">官网</a>、<a href="http://sxj.mcmod.cn/umodel_win32.zip" target="_blank" rel="noopener">网盘</a>）。</li>
  	<li>双击“umodel.exe”，按图中配置参数，路径自选，不建议选择根路径（Content），否则所需时间较长。我在下面列出了子目录中包含的部分资源，可参考个人需要选择相应路径。</li>
- 	<li>最后点击“OK”，等待处理。（此时命令符窗口无显示，请耐心等待）<img class="  wp-image-276 aligncenter" src="http://sxj.mcmod.cn/images/7p0j57voq0ullllq.png" alt="7~$P0]J57V)OQ)}0%ULLLLQ.png" width="502" height="386">
+ 	<li>最后点击“OK”，等待处理。（此时命令符窗口无显示，请耐心等待）<img class="  wp-image-276 aligncenter" src="http://sxj.mcmod.cn/images/7p0j57voq0ullllq.png" alt="7~$P0]J57V)OQ)}0%ULLLLQ.png" >
 <ul>
  	<li>Battle：含有战斗场景下的各种3D模型，2D UI设计等。</li>
  	<li>Event：含有VN（视觉小说）界面下的各种立绘、CG。</li>
@@ -141,46 +138,48 @@
  	<li>System：含有游戏主页面的UI设计文件。</li>
  	<li>World*：含有主线剧情内世界场景的资源文件，包括地图架构，2D动态Q版人物等。</li>
 </ul>
-<details>
-<summary><span style="color: #800080;" data-darkreader-inline-color="">（拿岛风酱举个栗子，第三节重头戏就这个，点击预览）</span></summary><br>哇快动起来啊！你可是动图的说。（这张gif略大，可能要加载一会）<img class="alignnone  wp-image-326" src="http://sxj.mcmod.cn/images/ch001-2.gif" alt="Ch001 (2).gif" width="782" height="625">
+<details><summary>
+<span style="color: #800080;" data-darkreader-inline-color="">（拿岛风酱举个栗子，第三节重头戏就这个，点击预览）</span></summary><br>哇快动起来啊！你可是动图的说。（这张gif略大，可能要加载一会）<img class="alignnone  wp-image-326" src="http://sxj.mcmod.cn/images/ch001-2.gif" alt="Ch001 (2).gif" >
 </details><br></li>
- 	<li>处理完成后弹出资源选择窗口，左侧目录树找到目标后可在右侧双击感兴趣的资源来预览。建议预览较大的文件，这些文件通常是图片、模型、音乐。<img class="alignnone  wp-image-277" src="http://sxj.mcmod.cn/images/td7s7sro_o4hp6kok.png" alt="TD7S`[]%7SR{O_O$4HP6KOK.png" width="1116" height="697"></li>
- 	<li>预览完毕后可以直接在预览器的“Tools”菜单中导出，或在文件浏览窗口批量选择需导出的文件，点击下方“Export”，选好路径与图片格式（仅影响图片文件）后确认导出即可。<img class="alignnone  wp-image-278" src="http://sxj.mcmod.cn/images/31q40q0eth2mxcb1.png" alt="31Q%@]Q0[$ET%~H2MXC(B(1.png" width="1095" height="681"></li>
+ 	<li>处理完成后弹出资源选择窗口，左侧目录树找到目标后可在右侧双击感兴趣的资源来预览。建议预览较大的文件，这些文件通常是图片、模型、音乐。<img class="alignnone  wp-image-277" src="http://sxj.mcmod.cn/images/td7s7sro_o4hp6kok.png" alt="TD7S`[]%7SR{O_O$4HP6KOK.png"></li>
+ 	<li>预览完毕后可以直接在预览器的“Tools”菜单中导出，或在文件浏览窗口批量选择需导出的文件，点击下方“Export”，选好路径与图片格式（仅影响图片文件）后确认导出即可。<img class="alignnone  wp-image-278" src="http://sxj.mcmod.cn/images/31q40q0eth2mxcb1.png" alt="31Q%@]Q0[$ET%~H2MXC(B(1.png" ></li>
 </ol>
-注：UE Viewer仅能导出部分资源文件，一些数据文件无法识别与导出。<br>
-<br>
-<span style="color: #008000;" data-darkreader-inline-color="">通常没有什么刚需的话，止步于此即可。也就只有我这么死脑筋的人会去想下面的内容了……</span>
+<p>注：UE Viewer仅能导出部分资源文件，一些数据文件无法识别与导出。<br><br>
+<span style="color: #008000;" data-darkreader-inline-color="">通常没有什么刚需的话，止步于此即可。也就只有我这么死脑筋的人会去想下面的内容了……</span></p>
 <hr>
 <p>三、<span style="background-color: #000000; color: #000000;" data-darkreader-inline-bgcolor="" data-darkreader-inline-color="">​​啊Q版小人太可爱了还会动 i了i了 一定要把她们导出来！~~</span></p>
 <p>闹着玩嘛，这节主要是来提取ALC地图场景那些Q版小人。在这个坑里花了70%的时间才爬出来，获得不少经验的同时也感谢各位提供神奇工具的开源作者。</p>
 <p>在这节里，经验伴你同行。</p>
 <details>
-<summary>人生经验（点击查看）</summary>一开始就花了半小时分析数据包文件架构，才找到路径“~\Azurlane\Content\World\Spine”。本以为是CG一样的玩意，结果用Umodel（UE Viewer）一看——<img class="alignnone size-full wp-image-284" src="http://sxj.mcmod.cn/images/ch001.png" alt="Ch001.png" width="4096" height="2048">
+<summary>人生经验（点击查看）</summary>
+一开始就花了半小时分析数据包文件架构，才找到路径“~\Azurlane\Content\World\Spine”。本以为是CG一样的玩意，结果用Umodel（UE Viewer）一看——<img class="alignnone size-full wp-image-284" src="http://sxj.mcmod.cn/images/ch001.png" alt="Ch001.png" >
 <p>【心脏骤停】誒呀好难受啊……与六年前拆CS1.6素材文件是一样的感觉呢。</p>
 </details><br>
 <p style="padding-left: 40px;">1. 经分析可知此类2D建模由Spine软件设计，单个建模包含json*1、atlas*1、png*1，对应解包后的路径为“~\Azurlane\Content\World\Spine”。其中“Ch001”即岛风，“Ch002”即…… 额这是谁来着？</p>
-<p style="padding-left: 40px;"><img class=" size-full wp-image-287 aligncenter" src="http://sxj.mcmod.cn/images/ch002_touch.png" alt="Ch002_touch.png" width="461" height="508"></p>
+<p style="padding-left: 40px;"><img class=" size-full wp-image-287 aligncenter" src="http://sxj.mcmod.cn/images/ch002_touch.png" alt="Ch002_touch.png" </p>
 <p style="padding-left: 40px;">是绫波吗…？是她吧…… 誒别打我啊！</p>
 <p style="padding-left: 40px;">剩下52位诸位若学成的话就可以自己提取哦~ 请自行探索吧~~（按道理每艘秘书舰都有的说）</p>
 <p style="padding-left: 40px;">2. 准备文本编辑器（无脑推荐<a href="https://code.visualstudio.com/">VS Code</a>、<a href="https://www.sublimetext.com/3">Sublime Text 3</a>，Notepad++ 因过于自由而不推荐），<a href="https://github.com/kiletw/SpineViewerWPF" target="_blank" rel="noopener">Spine Viewer WPF</a>（作者：<a class="url fn" href="https://github.com/kiletw" rel="author">kiletw</a>）。</p>
 <p style="padding-left: 40px;">注：SpineViewerWPF需要<a href="http://go.microsoft.com/fwlink/?linkid=863265" rel="nofollow">.NET Framework 4.7.2</a>与<a href="https://www.microsoft.com/en-us/download/details.aspx?id=20914" rel="nofollow">Microsoft XNA Framework Redistributable 4.0</a>作为前置库。</p>
 <details>
-<summary>经验+1（点击查看）</summary>这一步就着实不容易呐，Spine Viewer出奇的好用，虽然有点<a href="https://github.com/kiletw/SpineViewerWPF/issues/5" target="_blank" rel="noopener">小Bug</a>但作者很快就修复了，真得感谢他，不然可能就得买原装Spine了。（试用版无法导出图像，基础版就要69刀……）
+<summary>经验+1（点击查看）</summary>
+这一步就着实不容易呐，Spine Viewer出奇的好用，虽然有点<a href="https://github.com/kiletw/SpineViewerWPF/issues/5" target="_blank" rel="noopener">小Bug</a>但作者很快就修复了，真得感谢他，不然可能就得买原装Spine了。（试用版无法导出图像，基础版就要69刀……）
 <p>悲惨的是，到最后我才找到这玩意。</p>
 <p>辛运的是，你们的时间不会浪费了。</p>
-</details>
+</details><br>
 <p style="padding-left: 40px;">3. 利用第二节的方法，通过 umodel 从“~\Azur Lane Crosswave\World\Spine\<strong>Chxxx</strong>\Textures”（xxx指数字，为避免误解下面采用001，毕竟小岛风辣么可爱，拿来练手也不错~）得到Ch001.png。</p>
-<p style="padding-left: 40px;">4. 神奇又关键的一步。资源管理器定位至“~\Azurlane\Content\World\Spine\Ch001”，将“Ch001.uexp”用文本编辑器打开，得到下图内容。（可能会有所卡顿）<img class="alignnone  wp-image-299" src="http://sxj.mcmod.cn/images/z9ykx_8ejqg4fckfxbgzl.png" alt="Z9YKX_8E(JQG)4FCKFXBGZL.png" width="642" height="381"></p>
+<p style="padding-left: 40px;">4. 神奇又关键的一步。资源管理器定位至“~\Azurlane\Content\World\Spine\Ch001”，将“Ch001.uexp”用文本编辑器打开，得到下图内容。（可能会有所卡顿）<img class="alignnone  wp-image-299" src="http://sxj.mcmod.cn/images/z9ykx_8ejqg4fckfxbgzl.png" alt="Z9YKX_8E(JQG)4FCKFXBGZL.png" ></p>
 <p style="padding-left: 40px;">将分界线（一排乱码）上端的文字复制，注意顶端乱码不用，按岛风举例是从“Ch001.png”到“index: -1”，创建一个新文本文件，重命名为Ch001.atlas，将内容粘贴进去，保存。</p>
-<p style="padding-left: 40px;">再将分界线下端文字复制，底端乱码不用，同样以岛风为例是从“{"skeleton":”到“"angle":-0.05}]}}}}}”。<strong>注意编辑器显示缺陷导致的复制不全。</strong><img class="alignnone  wp-image-300" src="http://sxj.mcmod.cn/images/3r_huhh4nxd40bgtn.png" alt="3{R_HUHH}4NX~D@BG~(~T~N.png" width="640" height="379"></p>
+<p style="padding-left: 40px;">再将分界线下端文字复制，底端乱码不用，同样以岛风为例是从“{"skeleton":”到“"angle":-0.05}]}}}}}”。<strong>注意编辑器显示缺陷导致的复制不全。</strong><img class="alignnone  wp-image-300" src="http://sxj.mcmod.cn/images/3r_huhh4nxd40bgtn.png" alt="3{R_HUHH}4NX~D@BG~(~T~N.png" ></p>
 <p style="padding-left: 40px;">创建新文本文件，命名为Ch001.json，将内容粘贴进去，保存。</p>
 <p style="padding-left: 40px;">建议移至同个文件夹，便于处理。<del>顺便吹一波QTTabBar。</del></p>
-<p style="padding-left: 40px;"><img class="  wp-image-301 aligncenter" src="http://sxj.mcmod.cn/images/bc_erkjahts3lq0.png" alt="(]B)C%{_ERK)JAHTS3L~~Q0.png" width="259" height="200"></p>
+<p style="padding-left: 40px;"><img class="  wp-image-301 aligncenter" src="http://sxj.mcmod.cn/images/bc_erkjahts3lq0.png" alt="(]B)C%{_ERK)JAHTS3L~~Q0.png" ></p>
 <details>
-<summary>痛苦不堪的经历（点击查看）</summary>知道是Spine模型后，我苦思冥想地雷社把json藏哪了。当时用umodel找了一晚上也没找着，倒是在预览窗口发现了端倪，但问题是——根本不能导出啊！！<img class="aligncenter  wp-image-304" src="http://sxj.mcmod.cn/images/g4luort5b4hkd26pcuu.png" alt="G4LUO`R[T[5B4HKD}26PCUU.png" width="334" height="180">
-<p>诶呦真的火气来了。在解包文件中浏览，突然一个“Azurlane.uproject”让我眼前一亮。woc，这不就是ALC的工程文件吗！感觉胜利的曙光都要照到身上了，赶紧双击，结果报错……<img class="aligncenter  wp-image-305" src="http://sxj.mcmod.cn/images/hpzlaa7_kp_q2cdno04.png" alt="(HP%ZLAA7_K}P_$Q2CDNO04.png" width="441" height="236"></p>
+<summary>痛苦不堪的经历（点击查看）</summary>
+知道是Spine模型后，我苦思冥想地雷社把json藏哪了。当时用umodel找了一晚上也没找着，倒是在预览窗口发现了端倪，但问题是——根本不能导出啊！！<img class="aligncenter  wp-image-304" src="http://sxj.mcmod.cn/images/g4luort5b4hkd26pcuu.png" alt="G4LUO`R[T[5B4HKD}26PCUU.png" >
+<p>诶呦真的火气来了。在解包文件中浏览，突然一个“Azurlane.uproject”让我眼前一亮。woc，这不就是ALC的工程文件吗！感觉胜利的曙光都要照到身上了，赶紧双击，结果报错……<img class="aligncenter  wp-image-305" src="http://sxj.mcmod.cn/images/hpzlaa7_kp_q2cdno04.png" alt="(HP%ZLAA7_K}P_$Q2CDNO04.png" ></p>
 <p>凉拌，这胜利曙光刺激啊，把我眼都给亮瞎了。</p>
-<p>接着网上冲浪，但几乎丧失了信心，直到有一次想复制“Ch001.uasset”文件名，不小心双击打开了它……<img class="alignnone size-full wp-image-308" src="http://sxj.mcmod.cn/images/5gatfi723o9nqeg40w3.png" alt="5GATFI7)23%O~9NQE[G40W3.png" width="1440" height="324"></p>
+<p>接着网上冲浪，但几乎丧失了信心，直到有一次想复制“Ch001.uasset”文件名，不小心双击打开了它……<img class="alignnone size-full wp-image-308" src="http://sxj.mcmod.cn/images/5gatfi723o9nqeg40w3.png" alt="5GATFI7)23%O~9NQE[G40W3.png" ></p>
 <p>？？梦寐以求的json与atlas，简直就是乱码丛中的那两颗耀眼的钻石啊！</p>
 <p>顺手打开和它在一起的“Ch001.uexp”，便出现教程里这一幕。简直泪流满面……辛苦没有白费！</p>
 </details><br>
@@ -190,18 +189,19 @@
 <p style="padding-left: 40px;"><span style="color: #008000;" data-darkreader-inline-color="">5-2. Spine中新建项目，选择“导入数据”，导入Ch001.json。再选择“纹理解包器”，图集文件导入Ch001.atlas，确保Ch001.png在同一文件夹，选择输出文件夹后确定。</span></p>
 <p style="padding-left: 40px;"><span style="color: #008000;" data-darkreader-inline-color="">5-3. 将导出的许多单张图与Ch001.json放在一起，就能在Spine中预览到了。更多功能请自行探索，此处不再赘述。毕竟这不是教程想表达的方法。</span></p>
 <p style="padding-left: 40px;"><span style="color: #008000;" data-darkreader-inline-color="">5-4. 选择导出，各种图片视频格式任君挑选。</span></p>
-<p style="padding-left: 40px;"><span style="color: #ff6600;" data-darkreader-inline-color="">6. 接上第4步。双击打开“SpineViewerWPF.exe”，在“Use Version”菜单中选择“3.7.83”（注意不是最新的3.8.x）。再点击“File -&gt; Load Spine”，选择Ch001.atlas文件路径，并保证png与json在同一文件夹，能看到如下图。</span><img class="alignnone  wp-image-313" src="http://sxj.mcmod.cn/images/t6kpemfn559qp3plm.png" alt="[T6(KPEMFN55`9QP}(3`PLM.png" width="786" height="698"></p>
+<p style="padding-left: 40px;"><span style="color: #ff6600;" data-darkreader-inline-color="">6. 接上第4步。双击打开“SpineViewerWPF.exe”，在“Use Version”菜单中选择“3.7.83”（注意不是最新的3.8.x）。再点击“File -&gt; Load Spine”，选择Ch001.atlas文件路径，并保证png与json在同一文件夹，能看到如下图。</span><img class="alignnone  wp-image-313" src="http://sxj.mcmod.cn/images/t6kpemfn559qp3plm.png" alt="[T6(KPEMFN55`9QP}(3`PLM.png" ></p>
 <p style="padding-left: 40px;"><span style="color: #ff6600;" data-darkreader-inline-color="">其中左侧“Anime”可选择不同动画，一个角色通常有多种动画（如岛风有3种）。下方是播放控件与截图（相机键）还有Gif导出（摄像键）。</span></p>
 没错，白嫖就是那么简单~~&nbsp; 不过探索出这条路来并不是那么简单的……
 <p>在此提醒下，<span style="color: #ff0000;" data-darkreader-inline-color="">导出Gif时会占用大量内存资源，请留出足够的内存，否则程序会崩溃。</span></p>
 <details>
-<summary>现在让我们看看探索历程的艰辛——（点击查看）</summary>一开始我用Spine 试用版，它可以导入json数据文件。然而Spine不认atlas，而“纹理解包器”功能试用版又无法使用，导致只有骨架，材质全部遗失…… 简直就是死路一条啊。<img class="alignnone  wp-image-316" src="http://sxj.mcmod.cn/images/u49e0tfy_dri.png" alt="U~~(~](~)49E0TF%Y_D}(RI.png" width="933" height="700">
+<summary>现在让我们看看探索历程的艰辛——（点击查看）</summary>
+一开始我用Spine 试用版，它可以导入json数据文件。然而Spine不认atlas，而“纹理解包器”功能试用版又无法使用，导致只有骨架，材质全部遗失…… 简直就是死路一条啊。<img class="alignnone  wp-image-316" src="http://sxj.mcmod.cn/images/u49e0tfy_dri.png" alt="U~~(~](~)49E0TF%Y_D}(RI.png" >
 <p>然后就开始考虑分割图集（那张大png），网上找了近乎两天，测试了各种软件：Skeleton Viewer、Texture Packer、Sprite UV、Gdx Texture Packer、Dragon Bones Pro 等等。</p>
-<p>最后找到了“splitAtlas.py”，可惜没有原出处了。不过它成功帮我分割了大图，当时怕是都感动到哭了……<img class="alignnone  wp-image-318" src="http://sxj.mcmod.cn/images/ota55_asbp2om95gt2xu.png" alt="OTA)55%_ASBP2O{M95GT2XU.png" width="774" height="747"></p>
-<p>一言难尽，其中的辛酸没人能理解，文字完全没法描述。这几天已经处于返校倒计时，我是多么想在返校前作出一番成就呢！终于——<img class="alignnone size-full wp-image-319" src="http://sxj.mcmod.cn/images/t5dtg6g5lkp89o26ygb7sn.png" alt="T}5DTG6G5LKP89O26YGB7SN.png" width="933" height="700"></p>
+<p>最后找到了“splitAtlas.py”，可惜没有原出处了。不过它成功帮我分割了大图，当时怕是都感动到哭了……<img class="alignnone  wp-image-318" src="http://sxj.mcmod.cn/images/ota55_asbp2om95gt2xu.png" alt="OTA)55%_ASBP2O{M95GT2XU.png" ></p>
+<p>一言难尽，其中的辛酸没人能理解，文字完全没法描述。这几天已经处于返校倒计时，我是多么想在返校前作出一番成就呢！终于——<img class="alignnone size-full wp-image-319" src="http://sxj.mcmod.cn/images/t5dtg6g5lkp89o26ygb7sn.png" alt="T}5DTG6G5LKP89O26YGB7SN.png" ></p>
 <p>热泪盈眶，终于在游戏外看到成品了！！虽然不能导出，但也足矣。</p>
 <p>我并非没想过找破解版的Spine，可这设计软件太小众了，以至于根本没人破解，或许也有联网激活难破解的原因吧。</p>
-<p>也尝试了替代品，Dragon Bones Pro。可这玩意有Bug，硬生生把可怜岛风的头发给整没了…… （wdnmd！！毁谁形象呢？！）受害者照片如下：<img class="alignnone size-full wp-image-321" src="http://sxj.mcmod.cn/images/e94057woete1404k5dc.png" alt="`E}9@`57WO~]%ETE1@4K5DC.png" width="1166" height="563"></p>
+<p>也尝试了替代品，Dragon Bones Pro。可这玩意有Bug，硬生生把可怜岛风的头发给整没了…… （wdnmd！！毁谁形象呢？！）受害者照片如下：<img class="alignnone size-full wp-image-321" src="http://sxj.mcmod.cn/images/e94057woete1404k5dc.png" alt="`E}9@`57WO~]%ETE1@4K5DC.png"></p>
 <p>最后的最后，我看到了真正的曙光——Spine Viewer WPF！</p>
 </details><br>
 <strong><span style="color: #ff6600;" data-darkreader-inline-color="">感谢你能看到最后，祝提取顺利。</span></strong><br>
