@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sxjeru.github.io</id>
     <title>Eru&apos;s Home</title>
-    <updated>2021-02-16T03:08:39.521Z</updated>
+    <updated>2021-02-16T03:21:01.284Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sxjeru.github.io"/>
     <link rel="self" href="https://sxjeru.github.io/atom.xml"/>
@@ -71,8 +71,11 @@
         </link>
         <updated>2021-02-15T14:09:50.000Z</updated>
         <summary type="html"><![CDATA[<details>
-<summary>无关紧要的话（点击查看）</summary>2020年情人节，<a href="https://store.steampowered.com/app/1150080/" target="_blank" rel="noopener">Azur Lane Crosswave</a>（以下简称ALC）正式在Steam上发售。本以为吾等手游绝缘体这辈子没机会玩一回碧蓝，机会居然自己跑来了。目前主线S评级全通，也懒得再肝下去，就动起了拆包的念头。毕竟虽然Steam上评价有些惨，不过本人觉得建模与CG还可以。
-<p>（话说这立绘该不会直接搬的手游上的吧……）</p>
+<summary>
+无关紧要的话（点击查看）</summary>
+2020年情人节，<a href="https://store.steampowered.com/app/1150080/" target="_blank" rel="noopener">Azur Lane Crosswave</a>（以下简称ALC）正式在Steam上发售。本以为吾等手游绝缘体这辈子没机会玩一回碧蓝，机会居然自己跑来了。目前主线S评级全通，也懒得再肝下去，就动起了拆包的念头。毕竟虽然Steam上评价有些惨，不过本人觉得建模与CG还可以。
+<br><br>
+（话说这立绘该不会直接搬的手游上的吧……）
 </details>
 <br>
 <h3><strong><span style="color: #ff0000;" data-darkreader-inline-color="">前排注意：任何解包行为需把握资源用途，为尊重作品著作权，请勿用于商业行为或大范围传播！</span></strong></h3>
@@ -87,8 +90,11 @@
 </ol>
 ]]></summary>
         <content type="html"><![CDATA[<details>
-<summary>无关紧要的话（点击查看）</summary>2020年情人节，<a href="https://store.steampowered.com/app/1150080/" target="_blank" rel="noopener">Azur Lane Crosswave</a>（以下简称ALC）正式在Steam上发售。本以为吾等手游绝缘体这辈子没机会玩一回碧蓝，机会居然自己跑来了。目前主线S评级全通，也懒得再肝下去，就动起了拆包的念头。毕竟虽然Steam上评价有些惨，不过本人觉得建模与CG还可以。
-<p>（话说这立绘该不会直接搬的手游上的吧……）</p>
+<summary>
+无关紧要的话（点击查看）</summary>
+2020年情人节，<a href="https://store.steampowered.com/app/1150080/" target="_blank" rel="noopener">Azur Lane Crosswave</a>（以下简称ALC）正式在Steam上发售。本以为吾等手游绝缘体这辈子没机会玩一回碧蓝，机会居然自己跑来了。目前主线S评级全通，也懒得再肝下去，就动起了拆包的念头。毕竟虽然Steam上评价有些惨，不过本人觉得建模与CG还可以。
+<br><br>
+（话说这立绘该不会直接搬的手游上的吧……）
 </details>
 <br>
 <h3><strong><span style="color: #ff0000;" data-darkreader-inline-color="">前排注意：任何解包行为需把握资源用途，为尊重作品著作权，请勿用于商业行为或大范围传播！</span></strong></h3>
@@ -119,7 +125,9 @@
 <p>二、渗透UE4</p>
 <p>ALC采用UE4（v4.21.2.0）游戏引擎，导致所有资源文件都被“加密”成uasset、uexp等文件，如何将这些还原成原始文件是这一关的核心任务。</p>
 <details>
-<summary>吐槽——（点击查看）</summary>手贱用umodel选游戏路径时把所有解包出来的资源文件全选了，结果分析就花了半个多小时……
+<summary>
+吐槽——（点击查看）</summary>
+手贱用umodel选游戏路径时把所有解包出来的资源文件全选了，结果分析就花了半个多小时……
 <p>而且umodel稳定性也不太好，在我手上至少崩了30多回。另外它无法提取所有文件，这可着实坑惨我了……</p>
 </details><br>
 <ol>
