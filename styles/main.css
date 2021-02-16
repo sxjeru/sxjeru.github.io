@@ -1920,3 +1920,9 @@ code::-webkit-scrollbar-thumb:hover {
           background-color: #1d1e1f!important;
         }
          
+      hr {
+    border-top-color: rgb(255 163 197 / 51%);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+    
