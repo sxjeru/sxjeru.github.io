@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://sxjeru.github.io</id>
+    <id>http://www.sxjeru.top</id>
     <title>Eru&apos;s Home</title>
-    <updated>2021-07-29T14:12:12.754Z</updated>
+    <updated>2021-07-29T14:16:28.931Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://sxjeru.github.io"/>
-    <link rel="self" href="https://sxjeru.github.io/atom.xml"/>
+    <link rel="alternate" href="http://www.sxjeru.top"/>
+    <link rel="self" href="http://www.sxjeru.top/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>https://sxjeru.github.io/images/avatar.png</logo>
-    <icon>https://sxjeru.github.io/favicon.ico</icon>
+    <logo>http://www.sxjeru.top/images/avatar.png</logo>
+    <icon>http://www.sxjeru.top/favicon.ico</icon>
     <rights>All rights reserved 2021, Eru&apos;s Home</rights>
     <entry>
+        <title type="html"><![CDATA[test]]></title>
+        <id>http://www.sxjeru.top/post/test/</id>
+        <link href="http://www.sxjeru.top/post/test/">
+        </link>
+        <updated>2021-07-29T14:16:12.000Z</updated>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[迷宫物语 本体资源+BGM+……]]></title>
-        <id>https://sxjeru.github.io/post/4/</id>
-        <link href="https://sxjeru.github.io/post/4/">
+        <id>http://www.sxjeru.top/post/4/</id>
+        <link href="http://www.sxjeru.top/post/4/">
         </link>
         <updated>2021-07-28T14:32:32.000Z</updated>
         <summary type="html"><![CDATA[<!-- wp:paragraph -->
@@ -43,8 +50,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[💖 请始终记住，这只是一个备用站点——]]></title>
-        <id>https://sxjeru.github.io/post/-1/</id>
-        <link href="https://sxjeru.github.io/post/-1/">
+        <id>http://www.sxjeru.top/post/-1/</id>
+        <link href="http://www.sxjeru.top/post/-1/">
         </link>
         <updated>2021-02-16T03:54:17.000Z</updated>
         <summary type="html"><![CDATA[<p>Blog主站：<a href="https://sxjeru.wordpress.com/">https://sxjeru.wordpress.com/</a><br>
@@ -56,8 +63,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[【RPG】Pray game 游戏推荐]]></title>
-        <id>https://sxjeru.github.io/post/3/</id>
-        <link href="https://sxjeru.github.io/post/3/">
+        <id>http://www.sxjeru.top/post/3/</id>
+        <link href="http://www.sxjeru.top/post/3/">
         </link>
         <updated>2021-02-16T00:02:45.000Z</updated>
         <summary type="html"><![CDATA[<p><span style="color:#ff0000;">度盘链接在最后！！</span></p>
@@ -73,8 +80,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[【碧蓝航线】Azur Lane Crosswave 解包指南+探索历程]]></title>
-        <id>https://sxjeru.github.io/post/2/</id>
-        <link href="https://sxjeru.github.io/post/2/">
+        <id>http://www.sxjeru.top/post/2/</id>
+        <link href="http://www.sxjeru.top/post/2/">
         </link>
         <updated>2021-02-15T14:09:50.000Z</updated>
         <summary type="html"><![CDATA[<details>
@@ -116,8 +123,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello World!]]></title>
-        <id>https://sxjeru.github.io/post/1/</id>
-        <link href="https://sxjeru.github.io/post/1/">
+        <id>http://www.sxjeru.top/post/1/</id>
+        <link href="http://www.sxjeru.top/post/1/">
         </link>
         <updated>2020-11-22T01:54:23.000Z</updated>
         <summary type="html"><![CDATA[<p>新的开始？</p>
