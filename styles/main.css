@@ -1940,4 +1940,8 @@ code::-webkit-scrollbar-thumb:hover {
 audio {
     margin: 15px;
 }
+.gt-post-content img {
+    display: inline;
+    margin: 18px 18px;
+}
     
