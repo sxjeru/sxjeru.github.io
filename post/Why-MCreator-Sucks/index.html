@@ -1,0 +1,325 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<title>为什么 MCreator 很糟糕？ | Eru&#39;s Home</title>
+
+<link rel="shortcut icon" href="https://sxjeru.github.io/favicon.ico?v=1629682086352">
+
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://sxjeru.github.io/styles/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script>
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127772764-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+        gtag('config', 'UA-127772764-1');
+    </script>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            Eru&#39;s Home
+        </div>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+                <div class="nav-item">
+                    
+                        <a href="/" class="menu gt-a-link">
+                            首页
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/post/about" class="menu gt-a-link">
+                            关于
+                        </a>
+                    
+                </div>
+            
+        </div>
+        <div style="text-align: center">
+            <form id="gridea-search-form" style="position: relative" data-update="1629682086352" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+        </div>
+    </div>
+</nav>
+
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    为什么 MCreator 很糟糕？
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2021-08-23 ·
+                    </time>
+                    
+                </div>
+                <div class="post-content">
+                    <center><font size="6"><b>为什么 MCreator 很糟糕？</b></font></center>
+<center><b>Why MCreator Sucks</b></center></br>
+<blockquote>
+<p>This file is written by the MinecraftForums user jcm2606. I welcome anyone to link to this file whenever they respond to an MCreator thread, as I will be doing.</p>
+</blockquote>
+<h2 id="该文档由mcf用户jcm2606所著欢迎各位在怼-mcreator-的同时分享此文链接">该文档由MCF用户<code>jcm2606</code>所著，欢迎各位在怼 MCreator 的同时分享此文链接。</h2>
+<blockquote>
+<p>Okay, so if you're reading this, you've either decided to use MCreator, support it or are uneducated as to why MCreator sucks. Or are just curious as to what I wrote for it. Either way. So, why did I write an entire text file? Because I cannot be bothered writing the reasons why you should not use MCreator over and over. This also goes for other generators that make modding as simple as a &quot;click a button&quot; process.</p>
+</blockquote>
+<p>当你读到此文时，你或许决定支持并使用 MCreator，或许并不了解 MCreator 为何声名狼藉，或者只是好奇我写了啥，等等。那么为什么我要写这么个文档呢？因为我懒得一遍又一遍重复别用 MCreator 的理由。当然这也适用于其他简单按几下按钮就能制作mod的生成器。</p>
+<blockquote>
+<p>Just a rundown of what I'm going to be talking about (partly for me writing this):</p>
+</blockquote>
+<p>概要：</p>
+<ul>
+<li><a href="#1">Limitations on what you can do</a><br>
+限制了你的操作</li>
+<li><a href="#2">Over-simplifies code</a><br>
+过度简化代码</li>
+<li><a href="#3">Allows for crappy, generic mods</a><br>
+允许无意义的mod存在</li>
+<li><a href="#4">Makes developers think modding is a simple process</a><br>
+让开发人员觉得制作mod是个简单的过程</li>
+<li><a href="#5">Closed-system</a><br>
+封闭式系统</li>
+<li><a href="#6">Very hard to catch and fix errors</a><br>
+难以捕获与修复错误</li>
+<li><a href="#7">Have to bide by the program's ToS</a><br>
+必须遵守其服务条款</li>
+<li><a href="#8">What / who is MCreator designed for?</a><br>
+MCreator究竟适合谁？</li>
+<li><a href="#9">Excuses that do not work</a><br>
+都是借口！</li>
+</ul>
+<h2 id="限制了你的操作limitations-on-what-you-can-doa-name1a">限制了你的操作（Limitations on what you can do）<a name="1"></a></h2>
+<blockquote>
+<p>As a program that makes things simpler, MCreator naturally has limitations. What MCreator is designed to do is abstract the process of developing mods to allow anyone to do it with little to no previous knowledge of programming. The function of abstraction can be done in a way which still separates those who legitimately cannot learn programming from those who are lazy (see WHAT / WHO IS MCREATOR DESIGNED FOR for what MCreator is ACTUALLY meant to be used for), and MCreator does not do abstraction in this way. See OVER-SIMPLIFIES CODE for what MCreator does wrong.</p>
+</blockquote>
+<p>作为一个简化mod制作的程序，MCreator 自然有其局限性。它通过抽象化开发mod的过程，使得任何人都可以在几乎没有编程知识的情况下进行mod开发。抽象的功能可以通过一种方式来合理实现，从而将那些的确无法学习编程的人和那些懒惰的人区分开（请参阅“MCreator 究竟适合谁”一节），而 MCreator 没有采用这种抽象化方式。有关 MCreator 存在的问题，请参阅“过度简化代码”一节。</p>
+<blockquote>
+<p>Abstraction is used with MCreator to make things simpler for you to develop mods, however what it also does is heavily limits you on what you can do. When using MCreator, the only things MCreator can do are the things that have buttons and text fields, you cannot add features that MCreator does not support, and God forbid if you try to code them yourselves outside of MCreator (the code is terribad, horrific, stupidly bad). Writing mods yourself gives you complete customizability of your mod, the only limits are your imagination and knowledge about both Java and modding.</p>
+</blockquote>
+<p>MCreator 通过抽象化来简化mod开发过程的同时，也严重限制了你的可操作性。使用 MCreator 意味着你只能做成一些由按钮和文本字段组成的事物，不得添加 MCreator 所不支持的功能。如果你试图脱离 MCreator 编写额外的功能，上帝都劝你<strong>别想了</strong>（代码非常糟糕）。而自己编写mod可以让您做到完全自定义，唯一的限制可能是您对Java的了解程度和想象力的多少。</p>
+<h2 id="过度简化代码over-simplifies-codea-name2a">过度简化代码（OVER-SIMPLIFIES CODE）<a name="2"></a></h2>
+<blockquote>
+<p>The &quot;code&quot; that MCreator allows you to &quot;write&quot; for your mods is honestly way too simplified. Due to this, as explored in LIMITATIONS ON WHAT YOU CAN DO, things are way too limited. There's no customisability of code, no way to make code more efficient (talked about in CLOSED-SYSTEM), no way to add functionality into your mod that MCreator doesn't allow for. Because of this over-simplification, a couple things also make MCreator bad.</p>
+</blockquote>
+<p>MCreator 允许你为mod“编写”的“代码”实在是太简陋了，因此正如上一节所述，操作大为受限。代码无法自定义，也无法变得更高效（参阅“封闭式系统”一节），更加无法将 MCreator 所不允许的功能添加到mod之中。由于过分的简化，造成的一些问题使得 MCreator 看上去更加不堪。</p>
+<blockquote>
+<p>Firstly, it gives developers the wrong impression. When a developer moves from a simplified language (calling MCreator a &quot;language&quot;) to a more complicated language, the developer may feel overwhelmed by the difference between the two and may be more inclined to just give up and return back to the simpler language (or just give up completely). Obviously we do not want this.</p>
+</blockquote>
+<p>首先，它给开发者留下了错误的印象。当开发者从一种被简化的语言（暂且称 MCreator 为一种语言）转向更为复杂的语言时，他们可能会被这两种语言的差异弄得不知所措，从而更倾向于放弃，然后返回到更简单的语言，或者干脆完全放弃。显然我们并不希望这样。</p>
+<blockquote>
+<p>Secondly, if the language / program simplifies it too much, it actually makes the language / program pointless in the grand scheme of things. Because it simplifies things down to just the click of a button, it pretty much kills the skill and knowledge requirement of modding which means it teaches you nothing, at all. Due to this, it makes MCreator completely useless if you decide to learn programming and write your own mod. The only thing it teaches you is what is possible with modding, which you already know anyways by playing with mods, and it doesn't even show everything! It's useless for programming.</p>
+</blockquote>
+<p>其次，如果语言/程序被过分简化，那么其在编写mod的过程中也就变得无足轻重。毕竟它把所有事情都简化成只需单击一个按钮就好的操作，压根儿不提对编写mod的知识水平与技能的要求，这也意味着它教不了你任何东西。因此，如果你决定学习编程并开始写自己的mod，你会发现 MCreator 一点儿用也没有。它唯一能告诉你的只是这世上有mod的存在，而这点相信你通过play game早已知晓。显然它对会用编程语言写mod的人来说无用。</p>
+<h2 id="允许无意义的mod存在allows-for-crappy-generic-modsa-name3a">允许无意义的mod存在（ALLOWS FOR CRAPPY, GENERIC MODS）<a name="3"></a></h2>
+<blockquote>
+<p>What happens if you give people who have no creativity the power to create anything? You get hundreds of generic mods that all do virtually the same crappy thing, either that or rip-offs of other more original mods. Neither is good, and neither is what the community wants. PlanetMinecraft is flooded with generic mods daily, the same &quot;obsidian tools&quot;, &quot;emerald tools&quot;, &quot;plenty-o-ore&quot;, pointless, generic, crappy, low-quality mods are uploaded over and over again.</p>
+</blockquote>
+<p>如果你赋予那些缺乏想象力的人可以创造任何事物的能力会发生什么？你会得到数以百计的、近乎一样的mod，或者是“借鉴”其它原创mod而成的仿制品。这种劣质品不仅差，也不是社区所需要的。<a href="https://www.planetminecraft.com/mods/">Planet Minecraft</a> 每天都充斥着这些无意义的mod，同样的“黑曜石工具”“绿宝石工具”“超多矿石”，毫无意义、没有特点、蹩脚、低质量的mod被一次又一次地上传。</p>
+<blockquote>
+<p>Because of the fact that MCreator allows for anyone to make mods, it really hurts the community by allowing for crappy mods. Imagine what it'd be like if on a single page of the forums, you saw a single decent, high-quality, original mod, and the rest are all crappy generic tool mods. Need I say more?</p>
+</blockquote>
+<p>因为 MCreator 的简化使得任何人都可以制作mod，导致社区环境被其产出的糟糕mod严重破坏。想象一下，如果你在论坛页面上看到一个独立制作的高质量原创mod，但页面的其他部分都是劣质且重复的“xx工具”mod。面对这样的场景，还要我多说吗？</p>
+<h2 id="a-name4a让开发者觉得制作mod是个简单的过程makes-developers-think-modding-is-a-simple-process"><a name="4"></a>让开发者觉得制作mod是个简单的过程（MAKES DEVELOPERS THINK MODDING IS A SIMPLE PROCESS）</h2>
+<blockquote>
+<p>While programming is not hard at all (it takes time to learn, but once the ball starts rolling it's really easy to keep it going), people still think that MCreator is better than learning Java and writing the mods yourself. Now, I have already gone over this, but I'll focus more so on the impact that this has on the community.</p>
+</blockquote>
+<p>编程不难，虽然学习它需要时间，但只要雪球开始滚动，就很容易坚持下去了。然而比起学习Java，普通人还是觉得 MCreator 是一个更好的选择。我之前已经讲过这一点了，下面我会更多地聚焦这一趋势对社区的影响。</p>
+<blockquote>
+<p>Imagine if you're a regular forum user that replies to posts and helps people out, and you see someone struggle to do something in MCreator. You politely respond saying it's not possible with MCreator and you suggest they either forget about said feature, or move on, learn Java and drop MCreator. You get a response saying &quot;I can't learn how to code, I'm 13&quot; or something similar. Slightly annoyed, you reply saying that that is not a valid excuse and many other programmers on the forums started at that age. Then, you get the response saying &quot;But it'll take me years to learn&quot;. With the levels of annoyance heightening, you reply saying that you can learn the basics in a couple weeks, learn the more intermediate stuff in a couple more weeks, and have enough knowledge to start writing simple mods and expand your knowledge from there. Then, you get the response saying &quot;I tried but it's too hard, pls tell me how to do this&quot; or they flat up ask you for the code. Pretty annoyed, you start to show signs of slight anger and reply saying that you do not give code out willy-nilly as it serves no purpose copy-pasting and they'll learn absolutely nothing. Once ALL of that is over, you get the reply saying &quot;I'll just continue using MCreator&quot;. The water boils over and you type out a couple paragraphs explaining why MCreator is a bad choice, with more anger than the first option. This is the worst case scenario, in most cases by the time they pull the &quot;I'm 13&quot; card, they get the message and move on to learning Java.</p>
+</blockquote>
+<p>想象一下，如果你是一个常驻论坛用户，乐于回帖帮助别人，然后你看到有人在 MCreator 中摸爬滚打想做出点什么。你礼貌地回复道“用 MCreator 是不可能的”，并建议他要么忽略上面这句，要么转去学习Java，放弃 MCreator。他回复说“我学不会编程，我才13岁”云云。你有点恼火，回答说：“这个理由无法令人信服，论坛上很多其他的开发者都是从你这个年龄开始的。”然后你得到的回应是“但我要花几年时间才能学会”。你越发烦躁起来，回复说：“你可以在几周之内学会基础知识，再花几周时间学中级的知识，如此就有足够的知识储备开始编写简易模组，并能从中拓展知识面。”然后，你得到的回应是“我试过，但太难了，请告诉我怎么做”，或者他们直接问你要代码。你已经非常恼火了，带着一点急躁回复道：“我不会随便提供代码，因为接受的人根本不会从复制粘贴中学到什么东西。”对话结束，你得到的回复是“我还会接着用 MCreator ”。你怒火中烧，敲出几大段文字来说明 MCreator 有多糟糕。这是最坏的情况，大多数人会在“我才13岁”那一步get到点，弃暗投明去学Java。</p>
+<blockquote>
+<p>If it isn't that, it's the person learns Java but just jumped head-first into the pond without learning how to swim, and is now approximately yelling for help because they don't know what a NullPointerException is and how to fix it, and/or request you to literally spoon-feed code to them or hold their hand the entire trip. Me, personally, I'm fine with helping them out along the way, but they have to realise that I'm not going to walk them through EVERY step. And God help them if they ask me to spoon-feed them code...</p>
+</blockquote>
+<p>如果不是上述那样，那就是有一个学了 Java 的人，打个比方，没学游泳却一头栽进了池塘，现在正大声呼救，原因是他不知道什么是“NullPointerException”，也不知道如何修复，然后要求你填鸭式灌输给他们代码，或在整个开发过程中手把手地教他。就我个人而言，我很乐意帮助他们，但他们必须意识到，我不会陪他们走完每一步。如果要我拿勺子喂他们代码，那就愿苍天保佑他们……</p>
+<h2 id="封闭式系统closed-systema-name5a">封闭式系统（Closed-system）<a name="5"></a></h2>
+<blockquote>
+<p>MCreator is what I personally refer to as a &quot;closed system&quot;, which is basically a system (or program, &quot;box&quot;, or something similar) that is completely locked shut, as a user you do not know how it works and what the underlying mechanics that actually make it work are and how they function. Due to this, you're bound to what MCreator gives out, which honestly is a steaming pile of absolute crap (at least it was way back when I saw some code generated by it... dear god the memory... <em>shudder</em>).</p>
+</blockquote>
+<p>MCreator 就是我说的“封闭式系统”，它基本上可以说是完全闭塞的系统（或者说“闭型程序”“封闭盒子”之类的）。作为用户，你不知道它是怎么工作的，也不知道它运行的底层机制是什么，更不知道为什么你的mod能够正常运行。因此，你被束缚在 MCreator 输出的结果中，而不能对过程作出任何改变。但老实说，那就是一堆刚出炉的垃圾（至少在过去我看到它生成一段代码时…… OMG，那内存占用…… 简直令人不寒而栗——）。</p>
+<blockquote>
+<p>A couple of undesirable outcomes originate from the closed-system style of MCreator, firstly you're stuck with the code it generates for you. You may not like it, it may be stupidly inefficient (not surprised if it is inefficient), it may not be the best code for your exact desires, but you cannot change it. There's 0 customisability in the code it generates, so really it is MCreator's mod, not yours.</p>
+</blockquote>
+<p>一些你不愿见到的结果就是因为 MCreator 的封闭而产生的。首先，你无法改变生成的代码。或因效率十分低下（真的低下也不足为奇），或因不符合预期，你可能不喜欢那些代码，但你不能改变它们，代码的生成过程是不可自定义的。所以，生成的模组实际上属于 MCreator ，而不是你的。</p>
+<blockquote>
+<p>Secondly, you don't know what MCreator might slip into your code. For all you know (and this is unlikely, but is just generally a warning about programs like MCreator), MCreator may slip in a couple lines of code that allows THE PROGRAMS DEVELOPERS, not you, to shut off any client that's running your mod. While this is unlikely, what may be more likely is MCreator may be using the completely incorrect code (I have seen errors that have originated from MCreator-generated code).</p>
+</blockquote>
+<p>其次，你不知道MCreator会在你的代码中插入什么。据你所知（虽然不太可能，但与 MCreator 类似的程序一般都有这样的警告），MCreator 可能会插入几行代码，允许“那些开发者”（而不是你）关闭n个运行着含有这行代码的mod的客户端。相比较来说更可能出现的问题是，MCreator 也许采用了完全错误的代码（我就曾见过 MCreator 生成导致的错误）。</p>
+<h2 id="难以捕获与修复错误very-hard-to-catch-and-fix-errorsa-name6a">难以捕获与修复错误（VERY HARD TO CATCH AND FIX ERRORS）<a name="6"></a></h2>
+<blockquote>
+<p>Because of the fact that it is a closed-system, any errors that occur within your mod are stupidly hard to track. Most of the time you'll have to take the issue to the developer(s) of MCreator and let them fix it, as you cannot easily fix it on your end (fixing it on your end would result in decompilation which in itself is a challenge). Even the regulars on the forums cannot tell exactly what's causing the problems (we can of course tell you how it happened so-much-so as to what triggered it, say for instance passing a negative value to a method expecting a positive value, but we cannot tell you HOW it happened as to how the mod itself messed up and caused it to occur, nor why it happened) without code, which as I said is difficult to get.</p>
+</blockquote>
+<p>由于它是个封闭式系统，因此你很难追踪mod产生的errors。通常你只能将问题提交给 MCreator 的技术支持，让他们来修复。你没法在本地<strong>轻松</strong>修复（存在可能，但首先要会反编译，这又是个挑战），即便是论坛上的大佬也很难说出报错在mod中的确切原因。他们可以根据报错和经验说点什么，例如 <code>将负值传递给期望正值的方法</code>。但他们也无法知道你的mod为啥会报错，对此的解决方案也便无从得知。缺少代码的mod，连提问都没办法解决了。</p>
+<h2 id="必须遵守其服务条款have-to-abide-by-the-programs-tosa-name7a">必须遵守其服务条款（HAVE TO ABIDE BY THE PROGRAM'S TOS）<a name="7"></a></h2>
+<blockquote>
+<p>This is a smaller issue, but when using MCreator, you technically have to bide by their ToS, which means they have the greater authority over your mod. If their ToS changes, you have to change your mod to follow suit. Just the way the game plays out.</p>
+</blockquote>
+<p>这是个小问题，但是当你使用 MCreator 时，单从技术上来说，你必须遵守他们的服务条款，这意味着其实他们对你的mod拥有更高的权限。如果他们的条款改变了，你也必须要更改你的mod来使其符合条款。这就是结局。</p>
+<blockquote>
+<p>So, now that I've talked about issues with MCreator, let's go into some things specifically with the people using it.</p>
+</blockquote>
+<p>既然已经讨论完了 MCreator 本身的问题，那我接下来就具体谈一谈关于使用它的人的一些事儿。</p>
+<h2 id="mcreator究竟适合谁what-who-is-mcreator-designed-fora-name8a">MCreator究竟适合谁？（WHAT / WHO IS MCREATOR DESIGNED FOR?）<a name="8"></a></h2>
+<blockquote>
+<p>Any program that abstracts programming is designed for people who ACTUALLY have issues learning programming. This means people with medically-diagnosed problems, people who are of a young age (people in high school / middle school / of at least 12 years of age do not count), or people who legitimately cannot learn how to program. Anyone who doesn't fit this criteria who use MCreator or programs similar to it (even outside of modding) are either JUST learning, or are outright lazy. Now, just messing around making blocks which do nothing is IMO fine to be done with MCreator, the moment you want to do something more advanced, you need to move away from MCreator, ASAP. If you fall in the lazy department, move yourself out of the MCreator community and learn how to code Java. If you want to get into a computer science job, why not use your PROPERLY DEVELOPED mod as an example piece of work? If you don't want to, hey, you now have a new skill that can be useful. No loss except for a bit of time to learn it.</p>
+</blockquote>
+<p>所有抽象化编程的东西都是为那些对学习编程确有困难的人设计的，例如有医学疾病的人，12岁以下的人，或者有其他正当理由的人。除此之外的人如果用 MCreator 之类的玩意儿，要么<strong>仅限学习</strong>，要么就是懒。就我而言，如果只是为了做一两个没用的方块，MCreator 确实挺适合的，但当你想涉足更高领域时，便需要尽快脱离它。如果你只是因为懒而不去学如何编写Java代码，那现在是时候去学了。如果你以后想从事计算机科学方面的工作，那为什么不用代码写一个惊世骇俗的mod，然后挂在自己简历的第一面？若不想，至少编程是门有用的手艺，学习Java并非是在浪费时间。</p>
+<h2 id="都是借口excuses-that-do-not-worka-name9a">都是借口！（EXCUSES THAT DO NOT WORK）<a name="9"></a></h2>
+<blockquote>
+<p>I'm not going to explain anything here, this is just a list of excuses that flat up will not work, with a short reasoning as to why they do not work.</p>
+</blockquote>
+<p>不想再浪费口舌于与愚者的“辩论”了，我就在这里列举了一些 MCreator 用户常用的理由，还有我无懈可击的反驳。</p>
+<ul>
+<li>&quot;I'm too young! I'm &lt;insert age above 11&gt;!&quot;: Out of all respect, you're one lazy person. I, and many other people, learned Java at at least 12 years of age. I learned it when I was 12 and self-taught myself from then on.<br><br>
+“我太小了！我才只有12+岁！”：出于尊重，我只是说你懒。我身边有许多人在12岁之前便已经在学习Java了。至于我，也是在12岁那年开始自学Java的。<br>
+<br></li>
+<li>&quot;Learning it will take too long!&quot;: No, it won't. Learning the simple syntax of Java takes a matter of weeks, in that time you can write a simple calculator using an input Scanner. Going further on to learning the object-oriented side of Java will take a few more weeks and is the least you need to know to develop mods.<br><br>
+“学习Java太花时间了！”：并不会。学习Java的简单语法只需要几周的时间，在这段时间里，你可以利用 <code>input Scanner</code> 编写一个简单的计算器。而进一步学习 Java 面向对象方面的知识也只需要几周时间，这是开发 mod 所需的最起码的知识。<br>
+<br></li>
+<li>&quot;It's too hard!&quot;: I will give you this, as it looks hard when you have no idea about Java. But I will not accept this as an excuse to not learn it. It is no where near hard, want a hard language? Assembly, C, any older, lower-level languages. They're hard, and complicated.<br><br>
+“学习Java太难了！”：因为你不了解Java，所以看上去感觉很难。但这不是不学的借口。再说Java作为高级语言，没有哪方面是真正困难的。或许你想认识一些硬核语言（低级语言），譬如汇编语言、C语言等等，它们是真的又难又复杂。<br>
+<br></li>
+<li>&quot;I don't have enough time!&quot;: This is really, really dependent on your schedule. An hour each day for a couple of weeks will allow you to learn the syntax of Java, which is enough to start experimenting writing simple little programs to solidify that knowledge into your memory.<br><br>
+“我没时间嗷！”：这是你自己的事儿。每天安排一小时的Java语法学习时间，坚持几周你便可以编写一些简单的小程序了。多编程编程，既训练思维，有加深语法记忆。</li>
+</ul>
+<blockquote>
+<p>With all that said, I hope whoever that is reading this who uses MCreator is now feeling like they should move on, bite the bullet and learn Java. That's my goal, to make you want to drop MCreator and learn Java, and to make you realise why MCreator sucks. For those who do not use MCreator, I hope you found this a good resource.</p>
+</blockquote>
+<p>综上所述，我希望那些正在用 MCreator 的人在读完本文后，大彻大悟并毅然决然去学习Java。我的目的也正是想让你明白 MCreator 的糟糕之处，说服你放弃 MCreator 转而去学习编程。而对于本来就拒绝使用 MCreator 的人来说，这篇文章作为较好的资源可以拿去怼别人，特别是沉迷 MCreator 的“人”。</p>
+
+                </div>
+            </article>
+        </div>
+
+        
+
+        
+
+        
+
+        
+            <script src='https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js'></script>
+
+<style>
+	div#vcomments{
+		width:100%;
+		max-width: 1000px;
+		padding: 2.5%
+	}
+</style>
+
+
+	<div id="vcomments"></div>
+
+<script>
+	new Valine({
+		el: '#vcomments',
+		appId: 'AaLySmX8LUYkKqep0xEzIbnf-MdYXbMMI',
+		appKey: 'eMA9dfrpy1tbWQQuaiVz7jz6',
+		avatar: '',
+		pageSize: 10,
+		recordIp: false,
+		placeholder: '请畅所欲言~',
+		visitor: false,
+	});
+</script>
+
+        
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">温故而知新</div>
+    <div class="social-container">
+        
+            
+                <a href="https://github.com/sxjeru" target="_blank">
+                    <i class="fab fa-github gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+                <a href="https://twitter.com/sxj_eru" target="_blank">
+                    <i class="fab fa-twitter gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+        
+            
+                <a href="https://www.zhihu.com/people/sxjeru" target="_blank">
+                    <i class="fab fa-zhihu gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+        
+            
+        
+    </div>
+    <div class="footer-info">
+        <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+<br>
+<a href="https://www.upyun.com/?utm_source=lianmeng&amp;utm_medium=referral" style="color: rgb(166, 158, 147); text-decoration: none; --darkreader-inline-color:#aaa297;" data-darkreader-inline-color="">本网站由<img src="http://sxjeru.cn-sh2.ufileos.com/又拍云_logo6.png" style="
+    vertical-align: middle;
+    height: 24px;
+    margin: 3px;
+">提供CDN/云存储服务</a>
+<br>
+<a href="http://beian.miit.gov.cn">
+        浙ICP备2021024819号
+</a>
+    </div>
+    <div>
+        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
+                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://sxjeru.github.io/atom.xml" target="_blank">RSS</a></a>
+    </div>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+    </div>
+</div>
+</body>
+</html>
