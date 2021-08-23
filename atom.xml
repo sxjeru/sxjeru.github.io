@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sxjeru.github.io</id>
     <title>Eru&apos;s Home</title>
-    <updated>2021-08-23T01:28:09.414Z</updated>
+    <updated>2021-08-23T01:29:08.335Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sxjeru.github.io"/>
     <link rel="self" href="https://sxjeru.github.io/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://sxjeru.github.io/images/avatar.png</logo>
     <icon>https://sxjeru.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Eru&apos;s Home</rights>
+    <entry>
+        <title type="html"><![CDATA[为什么 MCreator 很糟糕？]]></title>
+        <id>https://sxjeru.github.io/post/Why-MCreator-Sucks/</id>
+        <link href="https://sxjeru.github.io/post/Why-MCreator-Sucks/">
+        </link>
+        <updated>2021-08-23T01:14:33.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[迷宫物语 本体资源+BGM+Joiplay修复版]]></title>
         <id>https://sxjeru.github.io/post/4/</id>
