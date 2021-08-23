@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sxjeru.github.io</id>
     <title>Eru&apos;s Home</title>
-    <updated>2021-08-23T01:31:03.263Z</updated>
+    <updated>2021-08-23T01:58:55.384Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sxjeru.github.io"/>
     <link rel="self" href="https://sxjeru.github.io/atom.xml"/>
@@ -16,6 +16,24 @@
         <link href="https://sxjeru.github.io/post/Why-MCreator-Sucks/">
         </link>
         <updated>2021-08-23T01:14:33.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>译者前排声明：</strong></p>
+<ol>
+<li>原文撰写时间已无从考证，可以肯定是2018年之前（可能是2015年之前）所成，因此<font  color="red">本文内容很可能部分过时</font>，请辩证看待。</li>
+<li>非专业翻译，无法达到“信达雅”三标准，如果你介意，请提出更高质量的翻译建议。</li>
+<li>文中所有自称都仅代表作者，并非为译者。</li>
+<li>感谢其他翻译贡献者（共享文档中的用户名）：judema8 (mamaruo)、595623175 (村雨)。</li>
+<li>全文采用<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">CC BY-NC-SA 4.0</a>共享，转载请署名@sxjeru。</li>
+</ol>
+]]></summary>
+        <content type="html"><![CDATA[<p><strong>译者前排声明：</strong></p>
+<ol>
+<li>原文撰写时间已无从考证，可以肯定是2018年之前（可能是2015年之前）所成，因此<font  color="red">本文内容很可能部分过时</font>，请辩证看待。</li>
+<li>非专业翻译，无法达到“信达雅”三标准，如果你介意，请提出更高质量的翻译建议。</li>
+<li>文中所有自称都仅代表作者，并非为译者。</li>
+<li>感谢其他翻译贡献者（共享文档中的用户名）：judema8 (mamaruo)、595623175 (村雨)。</li>
+<li>全文采用<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">CC BY-NC-SA 4.0</a>共享，转载请署名@sxjeru。</li>
+</ol>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[迷宫物语 本体资源+BGM+Joiplay修复版]]></title>
