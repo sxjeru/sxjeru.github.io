@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://sxjeru.github.io</id>
+    <id>https://blog.sxjeru.top</id>
     <title>Eru&apos;s Home</title>
-    <updated>2021-08-24T00:51:01.111Z</updated>
+    <updated>2021-08-25T02:08:17.943Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://sxjeru.github.io"/>
-    <link rel="self" href="https://sxjeru.github.io/atom.xml"/>
+    <link rel="alternate" href="https://blog.sxjeru.top"/>
+    <link rel="self" href="https://blog.sxjeru.top/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>https://sxjeru.github.io/images/avatar.png</logo>
-    <icon>https://sxjeru.github.io/favicon.ico</icon>
+    <logo>https://blog.sxjeru.top/images/avatar.png</logo>
+    <icon>https://blog.sxjeru.top/favicon.ico</icon>
     <rights>All rights reserved 2021, Eru&apos;s Home</rights>
     <entry>
         <title type="html"><![CDATA[为什么 MCreator 很糟糕？]]></title>
-        <id>https://sxjeru.github.io/post/Why-MCreator-Sucks/</id>
-        <link href="https://sxjeru.github.io/post/Why-MCreator-Sucks/">
+        <id>https://blog.sxjeru.top/post/Why-MCreator-Sucks/</id>
+        <link href="https://blog.sxjeru.top/post/Why-MCreator-Sucks/">
         </link>
         <updated>2021-08-23T01:14:33.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[迷宫物语 本体资源+BGM+Joiplay修复版]]></title>
-        <id>https://sxjeru.github.io/post/4/</id>
-        <link href="https://sxjeru.github.io/post/4/">
+        <id>https://blog.sxjeru.top/post/4/</id>
+        <link href="https://blog.sxjeru.top/post/4/">
         </link>
         <updated>2021-07-28T14:32:32.000Z</updated>
         <summary type="html"><![CDATA[<!-- wp:paragraph -->
@@ -66,8 +66,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[💖 请始终记住，这只是一个备用站点——]]></title>
-        <id>https://sxjeru.github.io/post/-1/</id>
-        <link href="https://sxjeru.github.io/post/-1/">
+        <id>https://blog.sxjeru.top/post/-1/</id>
+        <link href="https://blog.sxjeru.top/post/-1/">
         </link>
         <updated>2021-02-16T03:54:17.000Z</updated>
         <summary type="html"><![CDATA[<p>Blog主站：<a href="https://sxjeru.wordpress.com/">https://sxjeru.wordpress.com/</a><br>
@@ -79,8 +79,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[【RPG】Pray game 游戏推荐]]></title>
-        <id>https://sxjeru.github.io/post/3/</id>
-        <link href="https://sxjeru.github.io/post/3/">
+        <id>https://blog.sxjeru.top/post/3/</id>
+        <link href="https://blog.sxjeru.top/post/3/">
         </link>
         <updated>2021-02-16T00:02:45.000Z</updated>
         <summary type="html"><![CDATA[<p><span style="color:#ff0000;">度盘链接在最后！！</span></p>
@@ -96,8 +96,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[【碧蓝航线】Azur Lane Crosswave 解包指南+探索历程]]></title>
-        <id>https://sxjeru.github.io/post/2/</id>
-        <link href="https://sxjeru.github.io/post/2/">
+        <id>https://blog.sxjeru.top/post/2/</id>
+        <link href="https://blog.sxjeru.top/post/2/">
         </link>
         <updated>2021-02-15T14:09:50.000Z</updated>
         <summary type="html"><![CDATA[<details>
@@ -139,8 +139,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello World!]]></title>
-        <id>https://sxjeru.github.io/post/1/</id>
-        <link href="https://sxjeru.github.io/post/1/">
+        <id>https://blog.sxjeru.top/post/1/</id>
+        <link href="https://blog.sxjeru.top/post/1/">
         </link>
         <updated>2020-11-22T01:54:23.000Z</updated>
         <summary type="html"><![CDATA[<p>新的开始？</p>
