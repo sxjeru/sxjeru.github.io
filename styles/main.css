@@ -1943,6 +1943,7 @@ audio {
 .gt-post-content img {
     display: inline;
     margin: 18px 18px;
+    height: auto;
 }
 code {
     color: #b3ef40;
