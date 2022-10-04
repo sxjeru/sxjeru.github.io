@@ -2,13 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.sxjeru.top</id>
     <title>Eru&apos;s Home</title>
-    <updated>2022-10-03T01:54:22.617Z</updated>
+    <updated>2022-10-04T13:14:40.290Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.sxjeru.top"/>
     <link rel="self" href="https://blog.sxjeru.top/atom.xml"/>
     <logo>https://blog.sxjeru.top/images/avatar.png</logo>
     <icon>https://blog.sxjeru.top/favicon.ico</icon>
     <rights>All rights reserved 2022, Eru&apos;s Home</rights>
+    <entry>
+        <title type="html"><![CDATA[现在立刻就想对哥哥说我是妹妹！ 本体+汉化]]></title>
+        <id>https://blog.sxjeru.top/post/10/</id>
+        <link href="https://blog.sxjeru.top/post/10/">
+        </link>
+        <updated>2022-10-04T12:50:38.000Z</updated>
+        <summary type="html"><![CDATA[<p>原名：いますぐお兄ちゃんに妹だっていいたい！</p>
+<p>官网：<a href="https://imaimo.com/">https://imaimo.com/</a></p>
+]]></summary>
+        <content type="html"><![CDATA[<p>原名：いますぐお兄ちゃんに妹だっていいたい！</p>
+<p>官网：<a href="https://imaimo.com/">https://imaimo.com/</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[小白兔电商  游戏推荐+资源下载]]></title>
         <id>https://blog.sxjeru.top/post/9/</id>
@@ -186,21 +199,6 @@
 <p>“明明是个小黄油，却非要用心做剧情。”</p>
 <p>这是贴吧大佬给的一句话评价，精辟！</p>
 <p>画风不错，配乐又精良，是难得的佳作。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[💖 主站已被封停，决定将此处变为主站——]]></title>
-        <id>https://blog.sxjeru.top/post/-1/</id>
-        <link href="https://blog.sxjeru.top/post/-1/">
-        </link>
-        <updated>2021-02-16T03:54:17.000Z</updated>
-        <summary type="html"><![CDATA[<p><s>Blog 主站：<a href="https://sxjeru.wordpress.com/">https://sxjeru.wordpress.com/</a></s><br>
-原 Blog 归档：<a href="https://wp.eru.wip.la/">https://wp.eru.wip.la/</a><br>
-导航页：<a href="http://sxj.mcmod.cn/">http://sxj.mcmod.cn/</a></p>
-]]></summary>
-        <content type="html"><![CDATA[<p><s>Blog 主站：<a href="https://sxjeru.wordpress.com/">https://sxjeru.wordpress.com/</a></s><br>
-原 Blog 归档：<a href="https://wp.eru.wip.la/">https://wp.eru.wip.la/</a><br>
-导航页：<a href="http://sxj.mcmod.cn/">http://sxj.mcmod.cn/</a></p>
 ]]></content>
     </entry>
 </feed>
