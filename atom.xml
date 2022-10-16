@@ -2,13 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.sxjeru.top</id>
     <title>Eru&apos;s Home</title>
-    <updated>2022-10-14T07:49:55.520Z</updated>
+    <updated>2022-10-16T04:18:57.224Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.sxjeru.top"/>
     <link rel="self" href="https://blog.sxjeru.top/atom.xml"/>
     <logo>https://blog.sxjeru.top/images/avatar.png</logo>
     <icon>https://blog.sxjeru.top/favicon.ico</icon>
     <rights>All rights reserved 2022, Eru&apos;s Home</rights>
+    <entry>
+        <title type="html"><![CDATA[本人对 Stable Diffusion 的全部探索]]></title>
+        <id>https://blog.sxjeru.top/post/11/</id>
+        <link href="https://blog.sxjeru.top/post/11/">
+        </link>
+        <updated>2022-10-16T02:38:12.000Z</updated>
+        <summary type="html"><![CDATA[<p>随着10月7日的 NovelAI 模型“泄漏”事件，利用SD生成图片便开始大火。咱作为一穷学生，手头唯一有过的显卡，还是亮机用的 ATI HD 4600，因此只能去借用云 GPU 资源了。</p>
+<p>下面会给出一些SD相关的资源，教你如何在云上跑，以及个人生成的可供欣赏的图片。(大概会持续更新)</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>随着10月7日的 NovelAI 模型“泄漏”事件，利用SD生成图片便开始大火。咱作为一穷学生，手头唯一有过的显卡，还是亮机用的 ATI HD 4600，因此只能去借用云 GPU 资源了。</p>
+<p>下面会给出一些SD相关的资源，教你如何在云上跑，以及个人生成的可供欣赏的图片。(大概会持续更新)</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[现在立刻就想对哥哥说我是妹妹！ 本体+汉化+特典]]></title>
         <id>https://blog.sxjeru.top/post/10/</id>
@@ -182,23 +195,6 @@
 <!-- wp:paragraph -->
 <p>别急，资源在下面——</p>
 <!-- /wp:paragraph -->
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pray game 游戏推荐]]></title>
-        <id>https://blog.sxjeru.top/post/3-1/</id>
-        <link href="https://blog.sxjeru.top/post/3-1/">
-        </link>
-        <updated>2021-02-16T09:12:02.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><span style="color: #ff0000;">需要游戏资源下载请<a href="https://blog.sxjeru.top/post/3/">前往此处</a></span>。</strong></p>
-<p>“明明是个小黄油，却非要用心做剧情。”</p>
-<p>这是贴吧大佬给的一句话评价，精辟！</p>
-<p>画风不错，配乐又精良，是难得的佳作。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p><strong><span style="color: #ff0000;">需要游戏资源下载请<a href="https://blog.sxjeru.top/post/3/">前往此处</a></span>。</strong></p>
-<p>“明明是个小黄油，却非要用心做剧情。”</p>
-<p>这是贴吧大佬给的一句话评价，精辟！</p>
-<p>画风不错，配乐又精良，是难得的佳作。</p>
 ]]></content>
     </entry>
 </feed>

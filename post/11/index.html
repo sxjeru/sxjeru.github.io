@@ -1,11 +1,11 @@
-<html lang="zh">
+<html>
 <head>
     <meta charset="utf-8"/>
 <meta http-equiv='content-language' content='zh-cmn-Hans'>
 <meta name="description" content="由 Eru 搭建的个人博客，通常会分享一些个人经验与资源 ~"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-<title>关于 - Eru&#39;s Home</title>
+<title>本人对 Stable Diffusion 的全部探索 | Eru&#39;s Home</title>
 
 <link rel="shortcut icon" href="https://blog.sxjeru.top/favicon.ico?v=1665893935096">
 
@@ -46,7 +46,7 @@
     </script>
 
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
 </head>
 <body>
 <div class="main gt-bg-theme-color-first">
@@ -95,14 +95,67 @@
 </nav>
 
     <div class="post-container">
-        <div class="post-detail">
+        <div class="post-detail gt-bg-theme-color-second">
             <article class="gt-post-content">
-                <div class="post-content">
+                <h2 class="post-title">
+                    本人对 Stable Diffusion 的全部探索
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2022-10-16 ★ 10:38 ·
+                    </time>
                     
+                </div>
+                <div class="post-content">
+                    <p>随着10月7日的 NovelAI 模型“泄漏”事件，利用SD生成图片便开始大火。咱作为一穷学生，手头唯一有过的显卡，还是亮机用的 ATI HD 4600，因此只能去借用云 GPU 资源了。</p>
+<p>下面会给出一些SD相关的资源，教你如何在云上跑，以及个人生成的可供欣赏的图片。(大概会持续更新)</p>
+<!-- more -->
+<hr>
+<p>由于咱没有在本地部署过，所说的一切都是纸上谈兵，所以还是丢几个教程罢。</p>
+<ul>
+<li><a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki" target="_blank">SD web UI 官方 Wiki</a></li>
+<li><a href="https://my.minecraft.kim/tech/824/" target="_blank">群友写的教程，质量不错</a></li>
+<li><a href="https://gist.github.com/crosstyan/f912612f4c26e298feec4a2924c41d99" target="_blank">SD Chinese FAQ</a></li>
+</ul>
+<p>部署时请注意网络环境，“系统代理”可能不起作用，请自行更改为 TUN隧道 (虚拟网卡/VPN) 模式，或搜索“git/pip 代理设置/镜像站设置”。</p>
+<hr>
+<p>若是想借助云GPU，个人在这方面作了不少探究，目前来说有这么几种方式：</p>
+<ol>
+<li>
+<p>Google Colab <font color=Cyan>(需架梯，优先考虑)</font><br>
+Google 大气！直接免费给 Tesla T4，应该是是能免费拿到的最好的 GPU 了。缺点是内存略少，配额也略少。它的分配大概是按GPU用量计算，间断生成应该能跑 1.5-2h。(戏称 AI 防沉迷)</p>
+<p>需要注意的是，该方案要求有<font color=red>稳定的互联网连接</font>，否则断线后可能会需要重新配置环境，浪费配额。</p>
+<p>推荐 notebook：<a href="https://colab.research.google.com/github/TheLastBen/fast-stable-diffusion/blob/main/fast_stable_diffusion_AUTOMATIC1111.ipynb" target="_blank">Fast SD</a><br>
+由于 Colab 内存限制，请配合较小的模型使用，这里建议转存 <a href="https://drive.google.com/drive/folders/1jLrwCGaQTU1FQFG8z_KWI0nYZmDE6znI?usp=sharing" target="_blank">animefull-final-pruned</a></p>
+<p>备选：<a href="https://colab.research.google.com/github/altryne/sd-webui-colab/blob/main/Stable_Diffusion_WebUi_Altryne.ipynb" target="_blank">by Altryne</a>、<a href="https://colab.research.google.com/drive/1Iy-xW9t1-OQWhb0hNxueGij8phCyluOh" target="_blank">SD Voldemort</a></p>
+<p>下图为基准测试，即 t2i 默认配置下的生成速度。<br>
+<img src="https://file.sxjeru.top/Blog/images/22.png" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>待续——</p>
+</li>
+</ol>
+
                 </div>
             </article>
         </div>
-        <br>
+
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://blog.sxjeru.top/post/10/" class="post-title gt-a-link">
+                    现在立刻就想对哥哥说我是妹妹！ 本体+汉化+特典
+                </a>
+            </div>
+        
+
+        
+            <span id="/post/11/" class="leancloud_visitors" data-flag-title="本人对 Stable Diffusion 的全部探索">
+                <em class="post-meta-item-text">阅读量 </em>
+                <i class="leancloud-visitors-count">0</i>
+            </span>
+        
+
         
 
         
@@ -134,7 +187,6 @@
 </script>
 
         
-
 
         <div class="site-footer gt-c-content-color-first">
     <div class="slogan gt-c-content-color-first"></div>
