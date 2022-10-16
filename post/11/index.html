@@ -7,7 +7,7 @@
 
 <title>本人对 Stable Diffusion 的全部探索 | Eru&#39;s Home</title>
 
-<link rel="shortcut icon" href="https://blog.sxjeru.top/favicon.ico?v=1665893935096">
+<link rel="shortcut icon" href="https://blog.sxjeru.top/favicon.ico?v=1665897330417">
 
 <link href="https://file.sxjeru.top/Blog/css/fontawesome-all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://blog.sxjeru.top/styles/main.css">
@@ -86,7 +86,7 @@
             
         </div>
         <div style="text-align: center">
-            <form id="gridea-search-form" style="position: relative" data-update="1665893935096" action="/search/index.html">
+            <form id="gridea-search-form" style="position: relative" data-update="1665897330417" action="/search/index.html">
                 <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
                 <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
             </form>
@@ -111,30 +111,27 @@
 <p>下面会给出一些SD相关的资源，教你如何在云上跑，以及个人生成的可供欣赏的图片。(大概会持续更新)</p>
 <!-- more -->
 <hr>
-<p>由于咱没有在本地部署过，所说的一切都是纸上谈兵，所以还是丢几个教程罢。</p>
+<p>关于本地搭建，由于咱没有实际操作过，所说的一切都是纸上谈兵，所以还是丢几个教程罢。</p>
 <ul>
 <li><a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki" target="_blank">SD web UI 官方 Wiki</a></li>
 <li><a href="https://my.minecraft.kim/tech/824/" target="_blank">群友写的教程，质量不错</a></li>
 <li><a href="https://gist.github.com/crosstyan/f912612f4c26e298feec4a2924c41d99" target="_blank">SD Chinese FAQ</a></li>
 </ul>
-<p>部署时请注意网络环境，“系统代理”可能不起作用，请自行更改为 TUN隧道 (虚拟网卡/VPN) 模式，或搜索“git/pip 代理设置/镜像站设置”。</p>
+<p>部署时请注意网络环境，“系统代理”可能不起作用，请自行更改为 TUN隧道 (虚拟网卡/VPN) 模式，<br>
+或搜索“git/pip 代理设置/镜像站设置”。</p>
 <hr>
-<p>若是想借助云GPU，个人在这方面作了不少探究，目前来说有这么几种方式：</p>
-<ol>
-<li>
-<p>Google Colab <font color=Cyan>(需架梯，优先考虑)</font><br>
-Google 大气！直接免费给 Tesla T4，应该是是能免费拿到的最好的 GPU 了。缺点是内存略少，配额也略少。它的分配大概是按GPU用量计算，间断生成应该能跑 1.5-2h。(戏称 AI 防沉迷)</p>
+<p>若是想借助云GPU，咱在这方面作了不少探究，目前来说有这么几种方式：</p>
+<h3 id="1-google-colab-font-colorcyan需架梯优先考虑font">1. Google Colab <font color=Cyan>(需架梯，优先考虑)</font></h3>
+<p>Google 大气！直接免费给 Tesla T4，应该是能免费拿到的最好的 GPU 了。缺点是内存略少，配额也略少。<br>
+它的分配大概是按GPU用量计算，间断生成应该能跑 1.5-2h。(戏称 AI 防沉迷)</p>
 <p>需要注意的是，该方案要求有<font color=red>稳定的互联网连接</font>，否则断线后可能会需要重新配置环境，浪费配额。</p>
 <p>推荐 notebook：<a href="https://colab.research.google.com/github/TheLastBen/fast-stable-diffusion/blob/main/fast_stable_diffusion_AUTOMATIC1111.ipynb" target="_blank">Fast SD</a><br>
-由于 Colab 内存限制，请配合较小的模型使用，这里建议转存 <a href="https://drive.google.com/drive/folders/1jLrwCGaQTU1FQFG8z_KWI0nYZmDE6znI?usp=sharing" target="_blank">animefull-final-pruned</a></p>
+由于 Colab 内存限制，请配合较小的模型使用，这里建议转存 <a href="https://drive.google.com/drive/folders/1jLrwCGaQTU1FQFG8z_KWI0nYZmDE6znI?usp=sharing" target="_blank">animefull-final-pruned</a><br>
+在“Model Download/Load”模块填入分享链接或转存后的路径，然后依次运行所有单元格即可。</p>
 <p>备选：<a href="https://colab.research.google.com/github/altryne/sd-webui-colab/blob/main/Stable_Diffusion_WebUi_Altryne.ipynb" target="_blank">by Altryne</a>、<a href="https://colab.research.google.com/drive/1Iy-xW9t1-OQWhb0hNxueGij8phCyluOh" target="_blank">SD Voldemort</a></p>
 <p>下图为基准测试，即 t2i 默认配置下的生成速度。<br>
 <img src="https://file.sxjeru.top/Blog/images/22.png" alt="" loading="lazy"></p>
-</li>
-<li>
-<p>待续——</p>
-</li>
-</ol>
+<h3 id="2-待续">2. 待续——</h3>
 
                 </div>
             </article>
