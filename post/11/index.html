@@ -7,7 +7,7 @@
 
 <title>本人对 Stable Diffusion 的全部探索 | Eru&#39;s Home</title>
 
-<link rel="shortcut icon" href="https://blog.sxjeru.top/favicon.ico?v=1665963783736">
+<link rel="shortcut icon" href="https://blog.sxjeru.top/favicon.ico?v=1666020839466">
 
 <link href="https://file.sxjeru.top/Blog/css/fontawesome-all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://blog.sxjeru.top/styles/main.css">
@@ -86,7 +86,7 @@
             
         </div>
         <div style="text-align: center">
-            <form id="gridea-search-form" style="position: relative" data-update="1665963783736" action="/search/index.html">
+            <form id="gridea-search-form" style="position: relative" data-update="1666020839466" action="/search/index.html">
                 <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
                 <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
             </form>
@@ -123,18 +123,25 @@
 <p>若是想借助云GPU，咱在这方面作了不少探究，目前来说有这么几种方式：</p>
 <h3 id="1-google-colab-font-colorcyan需架梯优先考虑font">1. Google Colab <font color=Cyan>(需架梯，优先考虑)</font></h3>
 <p>Google 大气！直接免费给 Tesla T4，应该是能免费拿到的最好的 GPU 了。缺点是内存略少，配额也略少。<br>
-它的分配大概是按GPU用量计算，间断生成每天大概能跑 1.5-2h，配额用尽自动停机。(戏称 AI 防沉迷)</p>
+它的分配大概是按GPU用量计算，间断生成每天大概能跑 1.5-2h，配额用尽自动停机。<font color=FFFFCC>(戏称 AI 防沉迷)</font></p>
 <p>需要注意的是，该方案要求有<font color=red>稳定的互联网连接</font>，否则断线后可能会需要重新配置环境，浪费配额。</p>
 <p>推荐 notebook：<a href="https://colab.research.google.com/github/TheLastBen/fast-stable-diffusion/blob/main/fast_stable_diffusion_AUTOMATIC1111.ipynb" target="_blank">Fast SD</a><br>
 由于 Colab 内存限制，请配合较小的模型使用，这里建议转存 <a href="https://drive.google.com/drive/folders/1jLrwCGaQTU1FQFG8z_KWI0nYZmDE6znI?usp=sharing" target="_blank">animefull-final-pruned</a><br>
 在“Model Download/Load”模块填入分享链接或转存后的路径，然后依次运行所有单元格即可。</p>
 <p>备选：<a href="https://colab.research.google.com/drive/1_Ma71L6uGbtt6UQyA3FjqW2lcZ5Bjck-" target="_blank"><strong>中文版 NovelAI官方前端</strong></a>、<a href="https://colab.research.google.com/github/altryne/sd-webui-colab/blob/main/Stable_Diffusion_WebUi_Altryne.ipynb" target="_blank">by Altryne</a>、<a href="https://colab.research.google.com/drive/1Iy-xW9t1-OQWhb0hNxueGij8phCyluOh" target="_blank">SD Voldemort</a></p>
-<p>下图为基准测试，即 t2i 默认配置下的生成速度。<br>
+<p>下图为基准测试，即 t2i 默认配置下的生成速度。(仅供参考，实际不是很稳)<br>
 <img src="https://file.sxjeru.top/Blog/images/22.png" alt="" loading="lazy"></p>
 <h3 id="2-paperspace-font-colorcyan稳定免费-6hfont">2. Paperspace <font color=Cyan>(稳定免费 6h)</font></h3>
 <p>这家提供的是 Quadro M4000，性能不强，不过内存倒是给够了。<br>
 实行先到先得机制，可能会有免费机子耗尽的情况，目前来说<strong>只要多次刷新就能刷出可用机子</strong>，抢到便可完整用6小时。<br>
 这家的永久存储空间只给了 5GB，相当于每次运行都要重新下载模型，不过目前来说下载速度可观，影响不大。</p>
+<p>官方引导 (En)：<a href="https://github.com/Engineer-of-Stuff/stable-diffusion-paperspace/blob/main/docs/Paperspace%20Guide%20for%20Idiots.md" target="_blank">SD Paperspace</a><br>
+注册时需要手机号。<br>
+创建项目时若没有免费的机子，可以刷新一下，或换个时间。<br>
+notebook 中第一个单元格需要手动去掉 2-5 行注释。下载模型推荐“animefull-final-pruned”，可选下载 Hypernetworks 部分。其余请根据说明运行，祝成功。</p>
+<p>下图为基准测试，注意单位为较慢的“s/it”。<br>
+<img src="https://file.sxjeru.top/Blog/images/23.png" alt="" loading="lazy"></p>
+<h3 id="3-待续">3. 待续——</h3>
 
                 </div>
             </article>
