@@ -1109,15 +1109,15 @@ code {
 }
 .wl-header label {
     color: #64b587;
-    font-size: 14px;
+    font-size: 14px !important;
 }
 .wl-editor, .wl-input {
     color: #d3d3d3;
-    font-size: 16px;
+    font-size: 16px !important;
 }
 .wl-action {
     color: #919191;
-    height: auto;
+    height: auto !important;
 }
 .wl-btn.primary {
     border-color: #64b587;
@@ -1131,20 +1131,31 @@ code {
     color: #64b587;
 }
 .wl-info .wl-text-number {
-    margin-right: 10px;
+    margin-right: 10px !important;
 }
 .wl-count {
-    font-size: 2.25em;
+    font-size: 2.25em !important;
 }
 .wl-empty {
-    font-size: 13px;
+    font-size: 13px; !important
     color: #999;
 }
 .wl-card .wl-meta>span {
-    margin-right: 0.5em;
-    border-radius: 0.5em;
-    background: #64b58787;
+    margin-right: 0.8em !important;
+    border-radius: 0.5em !important;
+    background: #464646 !important;
     color: #e0eaef;
+}
+{.wl-card .wl-delete, .wl-card .wl-like, .wl-card .wl-reply, .wl-card .wl-edit {
+    margin-left: 10px !important;
+}
+.wl-card .wl-content>*:last-child {
+    margin-top: 4px !important;
+    font-size: 15px !important;
+}
+.wl-card .wl-nick {
+    margin-right: 1.5em !important;
+    font-size: 13px !important;
 }
 html[data-theme='dark']:root {
     /* 常规颜色 */
@@ -1152,16 +1163,18 @@ html[data-theme='dark']:root {
   --waline-light-grey: #666;
   --waline-dark-grey: #999;
   /* 布局颜色 */
-  --waline-color: #888;
+  --waline-color: #e0eaef;
   --waline-bgcolor: #1e1e1e;
   --waline-bgcolor-light: #272727;
-  --waline-border-color: #333;
+  --waline-border-color: #6e6e6e;
   --waline-disable-bgcolor: #444;
   --waline-disable-color: #272727;
   /* 特殊颜色 */
   --waline-bq-color: #272727;
   /* 其他颜色 */
-  --waline-info-bgcolor: #272727;
-  --waline-info-color: #666;
+  --waline-info-bgcolor: #64b58787;
+  --waline-info-color: #e0eaef;
+  --waline-theme-color: #64b587;
+  --waline-active-color: #78cebe;
 }
     
