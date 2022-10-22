@@ -1101,4 +1101,43 @@ audio {
 code {
     color: #ff82ea !important;
 }
+.wl-panel {
+    background: transparent;
+}
+.wl-editor:focus, .wl-input:focus {
+    background: transparent;
+}
+.wl-header label {
+    color: #64b587;
+    font-size: 14px;
+}
+.wl-editor, .wl-input {
+    color: #d3d3d3;
+    font-size: 16px;
+}
+.wl-action {
+    color: #919191;
+    height: auto;
+}
+.wl-btn.primary {
+    border-color: #64b587;
+    background: transparent;
+    color: #e0eaef;
+}
+.wl-btn.primary:hover, .wl-btn.primary:active {
+    background: #64b58787;
+}
+.wl-sort li.active {
+    color: #64b587;
+}
+.wl-info .wl-text-number {
+    margin-right: 10px;
+}
+.wl-count {
+    font-size: 2.25em;
+}
+.wl-empty {
+    font-size: 13px;
+    color: #999;
+}
     
