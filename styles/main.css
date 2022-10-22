@@ -1140,4 +1140,10 @@ code {
     font-size: 13px;
     color: #999;
 }
+.wl-card .wl-meta>span {
+    margin-right: 0.5em;
+    border-radius: 0.5em;
+    background: #64b58787;
+    color: #e0eaef;
+}
     
