@@ -1177,4 +1177,9 @@ html[data-theme='dark']:root {
   --waline-theme-color: #64b587;
   --waline-active-color: #78cebe;
 }
+.post-container .leancloud_visitors {
+    margin: 10px 0 0px 0;
+    font-size: 13px;
+    font-weight: 500;
+}
     
