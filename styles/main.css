@@ -1157,6 +1157,10 @@ code {
     margin-right: 1.5em !important;
     font-size: 13px !important;
 }
+.wl-login-info {
+    width: 45px !important;
+    max-width: 100px !important;
+}
 html[data-theme='dark']:root {
     /* 常规颜色 */
   --waline-white: #000;
