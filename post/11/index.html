@@ -6,7 +6,7 @@
 
 <title>本人对 Stable Diffusion 的全部探索 | Eru&#39;s Home</title>
 
-<link rel="shortcut icon" href="https://blog.sxjeru.top/favicon.ico?v=1666516104722">
+<link rel="shortcut icon" href="https://blog.sxjeru.top/favicon.ico?v=1666518280803">
 
 <link href="https://fastly.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://blog.sxjeru.top/styles/main.css">
@@ -96,7 +96,7 @@
             
         </div>
         <div style="text-align: center">
-            <form id="gridea-search-form" style="position: relative" data-update="1666516104722"
+            <form id="gridea-search-form" style="position: relative" data-update="1666518280803"
                 action="/search/">
                 <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
                 <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
@@ -203,8 +203,10 @@ notebook 中第一个单元格需要手动去掉 2-5 行注释。下载模型推
 <li>Azure 学生订阅自带 $100，但是你无法直接去购买带 GPU 的 vps，会提示没有配额。因此考虑转向 Azure ML 平台。</li>
 <li>Azure ML 提供了最高 16核 32G CPU实例，与 6核 56G 带 Tesla K80/M60 GPU实例，性能其实并不算很好，并且所有的资源都是会扣额度的，除了计算实例，存储，网络都会收费。<br>(当关闭所有实例时，工作区的存储似乎不扣费，免费存储额度暂未知，怀疑 100GB。)</li>
 <li>由于环境不同，写 notebook 不是很容易，还是先试试纯 CPU 下的性能吧。(据说跑满一半核心是正常情况)<details><summary>基准测试点击查看。</summary><img src="https://file.sxjeru.top/Blog/images/27.png" alt="" loading="lazy"><img src="https://file.sxjeru.top/Blog/images/28.png" alt="" loading="lazy"></details></li>
-<li>上次用 GPU 尝试结果不能出图，之后有时间再试吧。况且按那价格，100刀还不够造 100h 的。x</li>
+<li>上次用 GPU 尝试结果不能出图，之后有时间再试吧。况且按那价格，100刀可能还不够造 100h 的。x</li>
 </ol>
+<p>倘若你想尝试搭建，请先在 AzureML 创建好工作区，添加合适的计算实例。然后下载<a href="https://github.com/sxjeru/stable-diffusion-webui-freeCloud/blob/main/azureml-stablediffusionui-adapted-to-novelaileaks.ipynb" target="_blank">该文件</a>并上传至工作区文件夹，之后按单元格注释操作即可。<br>
+完全不保证可用性，并且可能存在扣费行为，风险自担。</p>
 <hr>
 <p>说起来，应该没有人是为看图而来的吧。<br>
 咱一直在费心于基础设施搭建，哪有空研究咒语啥的，生成的结果只能说堪堪达到“能看”的范畴而已。<br>
