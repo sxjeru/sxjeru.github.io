@@ -6,7 +6,7 @@
 
 <title>本人对 Stable Diffusion 的全部探索 | Eru&#39;s Home</title>
 
-<link rel="shortcut icon" href="https://blog.sxjeru.top/favicon.ico?v=1666501729812">
+<link rel="shortcut icon" href="https://blog.sxjeru.top/favicon.ico?v=1666504683873">
 
 <link href="https://fastly.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://blog.sxjeru.top/styles/main.css">
@@ -96,7 +96,7 @@
             
         </div>
         <div style="text-align: center">
-            <form id="gridea-search-form" style="position: relative" data-update="1666501729812"
+            <form id="gridea-search-form" style="position: relative" data-update="1666504683873"
                 action="/search/">
                 <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
                 <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
@@ -148,7 +148,7 @@
 它的分配大概是按GPU用量计算，间断生成每天大概能跑 1.5-2h，配额用尽自动停机。<font color=FFFFCC>(戏称 AI 防沉迷)</font></p>
 <p>需要注意的是，该方案要求有<font color=#ff6969>稳定的互联网连接</font>，否则断线后可能会需要重新配置环境，浪费配额。</p>
 <p><strong>推荐 notebook：<a href="https://colab.research.google.com/github/TheLastBen/fast-stable-diffusion/blob/main/fast_stable_diffusion_AUTOMATIC1111.ipynb" target="_blank">Fast SD</a></strong></p>
-<p>由于 Colab 内存限制，请配合较小的模型使用，这里建议转存 <a href="https://drive.google.com/drive/folders/1jLrwCGaQTU1FQFG8z_KWI0nYZmDE6znI?usp=sharing" target="_blank">animefull-final-pruned</a><br>
+<p>由于 Colab 内存限制，请配合较小的模型使用，这里建议转存 <a href="https://drive.google.com/drive/folders/1jLrwCGaQTU1FQFG8z_KWI0nYZmDE6znI?usp=sharing" target="_blank">animefull-final-pruned</a>.<br>
 在“Model Download/Load”模块填入分享链接或转存后的路径，然后依次运行所有单元格即可。</p>
 <p>备选：<a href="https://colab.research.google.com/drive/1_Ma71L6uGbtt6UQyA3FjqW2lcZ5Bjck-" target="_blank"><strong>中文版 NovelAI官方前端</strong></a>、<a href="https://colab.research.google.com/github/altryne/sd-webui-colab/blob/main/Stable_Diffusion_WebUi_Altryne.ipynb" target="_blank">by Altryne</a>、<a href="https://colab.research.google.com/drive/1Iy-xW9t1-OQWhb0hNxueGij8phCyluOh" target="_blank">SD Voldemort</a></p>
 <p>下图为基准测试，即 t2i 默认配置下的生成速度。(仅供参考，实际不是很稳)<br>
@@ -178,9 +178,15 @@ notebook 中第一个单元格需要手动去掉 2-5 行注释。下载模型推
 <h3 id="4-amazon-sagemaker-studio-lab-font-colorcyan免费稳定-4hfont">4. Amazon SageMaker Studio Lab <font color=Cyan>(免费稳定 4h)</font></h3>
 <p>这家给的也是 Tesla T4，4核 CPU，16G 内存，15GB 存储空间。<br>
 配额是连续可用 4h，24h 内可用 8h。<br>
-注册账号无法立刻拿到，需要排几天的队。</p>
+注册账号无法立刻拿到，需要排几天的队等待审核。</p>
 <p><s>存在各种问题，暂时无法用于生产。请等待后续探究。</s><br>
-问题主要在于不给 root 权限，加上 gradio 无法连接，好在被咱找到解决方案了。</p>
+问题主要在于不给 root 权限，加上 gradio 无法连接，好在都能解决。</p>
+<p>自制 notebook：<a href="https://studiolab.sagemaker.aws/import/github/sxjeru/stable-diffusion-webui-freeCloud/blob/main/stablediffusionui-adapted-to-novelaileaks.ipynb"><img  src="https://studiolab.sagemaker.aws/studiolab.svg" alt="Open In SageMaker Studio Lab" style="vertical-align: middle; margin: 0;"/></a></p>
+<p>启动前记得将“Compute type”改为 GPU。<br>
+首次需运行除最后外的所有单元格，往后一般只需运行倒数第二个单元格。<br>
+存在无法正常运行的可能，如果无法独立解决，请考虑其他平台。</p>
+<p>下图基准测试。<br>
+<img src="https://file.sxjeru.top/Blog/images/26.png" alt="" loading="lazy"></p>
 <h3 id="最后说几点注意事项">最后说几点注意事项：</h3>
 <ul>
 <li><code>--share</code>带的 Gradio 服务，似乎存在断连问题，即webui假死之类，需要刷新重新配置才可。不论有无代理都如此；(更新 webui 后可用 ngrok 替代，亲测体验不错)</li>
