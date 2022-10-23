@@ -6,7 +6,7 @@
 
 <title>本人对 Stable Diffusion 的全部探索 | Eru&#39;s Home</title>
 
-<link rel="shortcut icon" href="https://blog.sxjeru.top/favicon.ico?v=1666504683873">
+<link rel="shortcut icon" href="https://blog.sxjeru.top/favicon.ico?v=1666509948833">
 
 <link href="https://fastly.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://blog.sxjeru.top/styles/main.css">
@@ -96,7 +96,7 @@
             
         </div>
         <div style="text-align: center">
-            <form id="gridea-search-form" style="position: relative" data-update="1666504683873"
+            <form id="gridea-search-form" style="position: relative" data-update="1666509948833"
                 action="/search/">
                 <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
                 <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
@@ -150,9 +150,7 @@
 <p><strong>推荐 notebook：<a href="https://colab.research.google.com/github/TheLastBen/fast-stable-diffusion/blob/main/fast_stable_diffusion_AUTOMATIC1111.ipynb" target="_blank">Fast SD</a></strong></p>
 <p>由于 Colab 内存限制，请配合较小的模型使用，这里建议转存 <a href="https://drive.google.com/drive/folders/1jLrwCGaQTU1FQFG8z_KWI0nYZmDE6znI?usp=sharing" target="_blank">animefull-final-pruned</a>.<br>
 在“Model Download/Load”模块填入分享链接或转存后的路径，然后依次运行所有单元格即可。</p>
-<p>备选：<a href="https://colab.research.google.com/drive/1_Ma71L6uGbtt6UQyA3FjqW2lcZ5Bjck-" target="_blank"><strong>中文版 NovelAI官方前端</strong></a>、<a href="https://colab.research.google.com/github/altryne/sd-webui-colab/blob/main/Stable_Diffusion_WebUi_Altryne.ipynb" target="_blank">by Altryne</a>、<a href="https://colab.research.google.com/drive/1Iy-xW9t1-OQWhb0hNxueGij8phCyluOh" target="_blank">SD Voldemort</a></p>
-<p>下图为基准测试，即 t2i 默认配置下的生成速度。(仅供参考，实际不是很稳)<br>
-<img src="https://file.sxjeru.top/Blog/images/22.png" alt="" loading="lazy"></p>
+<p>备选：<a href="https://colab.research.google.com/drive/1_Ma71L6uGbtt6UQyA3FjqW2lcZ5Bjck-" target="_blank"><strong>中文版 NovelAI官方前端</strong></a>、<a href="https://colab.research.google.com/github/altryne/sd-webui-colab/blob/main/Stable_Diffusion_WebUi_Altryne.ipynb" target="_blank">by Altryne</a>、<a href="https://colab.research.google.com/drive/1Iy-xW9t1-OQWhb0hNxueGij8phCyluOh" target="_blank">SD Voldemort</a><details><summary>下图为基准测试，即 t2i 默认配置下的生成速度，点击查看。(仅供参考，实际不是很稳)</summary><img src="https://file.sxjeru.top/Blog/images/22.png" alt="" loading="lazy"></details></p>
 <h3 id="2-paperspace-font-colorcyan稳定免费-6hfont">2. Paperspace <font color=Cyan>(稳定免费 6h)</font></h3>
 <p>这家提供的是 Quadro M4000，性能不强，不过内存倒是给够了。<br>
 实行先到先得机制，可能会有免费机子耗尽的情况，目前来说<strong>只要多次刷新就能刷出可用机子</strong>，抢到便可完整用6小时。<br>
@@ -160,9 +158,7 @@
 <p><strong>官方引导 (En)：<a href="https://github.com/Engineer-of-Stuff/stable-diffusion-paperspace/blob/main/docs/Paperspace%20Guide%20for%20Idiots.md" target="_blank">SD Paperspace</a></strong></p>
 <p>注册时需要手机号。<br>
 创建项目时若没有免费的机子，可以刷新一下，或换个时间。<br>
-notebook 中第一个单元格需要手动去掉 2-5 行注释。下载模型推荐“animefull-final-pruned”，可选下载 Hypernetworks 部分。其余请根据说明运行，祝成功。</p>
-<p>下图为基准测试，注意单位为较慢的“s/it”。<br>
-<img src="https://file.sxjeru.top/Blog/images/23.png" alt="" loading="lazy"></p>
+notebook 中第一个单元格需要手动去掉 2-5 行注释。下载模型推荐“animefull-final-pruned”，可选下载 Hypernetworks 部分。其余请根据说明运行，祝成功。<details><summary>下图为基准测试，点击查看，注意单位为较慢的“s/it”。</summary><img src="https://file.sxjeru.top/Blog/images/23.png" alt="" loading="lazy"></details></p>
 <h3 id="3-kaggle-font-colorcyan一周至少免费-30hfont">3. Kaggle <font color=Cyan>(一周至少免费 30h)</font></h3>
 <p>这家提供了 Tesla P100-PCIE，性能中上。虽然内存也不是很多，但这里内存占满不会像 Colab 一样强退进程，而是会缓慢持续运行。加上免费时间充足，存储空间也给不少，所以值得一试~</p>
 <p>今天突然发现它有提供 Tesla T4 x2，太香了！基准测试见后。</p>
@@ -171,22 +167,18 @@ notebook 中第一个单元格需要手动去掉 2-5 行注释。下载模型推
 <code>PERSISTENCE</code>为 Files only，并打开<code>Internet on</code>选项。</p>
 <p>若无法切换到 GPU，请先前往右侧下方提示处验证手机号。<br>
 首次需执行除最后外的所有单元格，往后一般只需执行倒数第二个单元格即可。<br>
-开启底部“Console”，便于查看日志输出。</p>
-<p>下图为基准测试。(先 T4 x2，后 P100)<br>
-<img src="https://file.sxjeru.top/Blog/images/25.png" alt="" loading="lazy"><br>
-<img src="https://file.sxjeru.top/Blog/images/24.png" alt="" loading="lazy"></p>
+开启底部“Console”，便于查看日志输出。<details><summary>下图为基准测试，点击查看。(先 T4 x2，后 P100)</summary><img src="https://file.sxjeru.top/Blog/images/25.png" alt="" loading="lazy"><img src="https://file.sxjeru.top/Blog/images/24.png" alt="" loading="lazy"></details></p>
 <h3 id="4-amazon-sagemaker-studio-lab-font-colorcyan免费稳定-4hfont">4. Amazon SageMaker Studio Lab <font color=Cyan>(免费稳定 4h)</font></h3>
 <p>这家给的也是 Tesla T4，4核 CPU，16G 内存，15GB 存储空间。<br>
 配额是连续可用 4h，24h 内可用 8h。<br>
 注册账号无法立刻拿到，需要排几天的队等待审核。</p>
 <p><s>存在各种问题，暂时无法用于生产。请等待后续探究。</s><br>
 问题主要在于不给 root 权限，加上 gradio 无法连接，好在都能解决。</p>
-<p>自制 notebook：<a href="https://studiolab.sagemaker.aws/import/github/sxjeru/stable-diffusion-webui-freeCloud/blob/main/stablediffusionui-adapted-to-novelaileaks.ipynb"><img  src="https://studiolab.sagemaker.aws/studiolab.svg" alt="Open In SageMaker Studio Lab" style="vertical-align: middle; margin: 0;"/></a></p>
+<p>自制 notebook：<a href="https://studiolab.sagemaker.aws/import/github/sxjeru/stable-diffusion-webui-freeCloud/blob/main/amazon-stablediffusionui-adapted-to-novelaileaks.ipynb"><img  src="https://studiolab.sagemaker.aws/studiolab.svg" alt="Open In SageMaker Studio Lab" style="vertical-align: middle; margin: 0;"/></a></p>
 <p>启动前记得将“Compute type”改为 GPU。<br>
 首次需运行除最后外的所有单元格，往后一般只需运行倒数第二个单元格。<br>
-存在无法正常运行的可能，如果无法独立解决，请考虑其他平台。</p>
-<p>下图基准测试。<br>
-<img src="https://file.sxjeru.top/Blog/images/26.png" alt="" loading="lazy"></p>
+存在无法正常运行的可能，如果无法独立解决，请考虑其他平台。<details><summary>下图基准测试，点击查看。</summary><img src="https://file.sxjeru.top/Blog/images/26.png" alt="" loading="lazy"></details></p>
+<hr>
 <h3 id="最后说几点注意事项">最后说几点注意事项：</h3>
 <ul>
 <li><code>--share</code>带的 Gradio 服务，似乎存在断连问题，即webui假死之类，需要刷新重新配置才可。不论有无代理都如此；(更新 webui 后可用 ngrok 替代，亲测体验不错)</li>
@@ -204,6 +196,18 @@ notebook 中第一个单元格需要手动去掉 2-5 行注释。下载模型推
 <li><strong>只能同时创建一个隧道，否则报错 Access denied；</strong></li>
 <li>个人感觉 ngrok 更加稳定，也更安全，推荐各位尝试。</li>
 </ul>
+<h3 id="附录azure-ml-体验">附录：Azure ML 体验</h3>
+<p>如果你有学生身份，那么便可以免费体验包括 Azure 与 DigitalOcean 在内多个云服务商的 IaaS 基础设施。DigitalOcean 我暂时没有涉足，就先说说有关 Azure 的一点经验。</p>
+<ol>
+<li>Azure 学生订阅自带 $100，但是你无法直接去购买带 GPU 的 vps，会提示没有配额。因此考虑转向 Azure ML 平台。</li>
+<li>Azure ML 提供了最高 16核 32G CPU实例，与 6核 56G 带 Tesla K80/M60 GPU实例，性能其实并不算很好，并且所有的资源都是会扣额度的，除了计算实例，存储，网络都会收费。<br>(当关闭所有实例时，工作区的存储似乎不扣费，免费存储额度暂未知，怀疑 100GB。)</li>
+<li>由于环境不同，写 notebook 不是很容易，还是先试试纯 CPU 下的性能吧。(据说跑满一半核心是正常情况)<details><summary>基准测试点击查看。</summary><img src="https://file.sxjeru.top/Blog/images/27.png" alt="" loading="lazy"><img src="https://file.sxjeru.top/Blog/images/28.png" alt="" loading="lazy"></details></li>
+<li>上次用 GPU 尝试结果不能出图，之后有时间再试吧。况且按那价格，100刀还不够造 100h 的。x</li>
+</ol>
+<hr>
+<p>说起来，应该没有人是为看图而来的吧。<br>
+咱一直在费心于基础设施搭建，哪有空研究咒语啥的，生成的结果只能说堪堪达到“能看”的范畴。<br>
+唉，AI 对于人体四肢的生成还是不太 Stable 啊——</p>
 
                 </div>
             </article>
