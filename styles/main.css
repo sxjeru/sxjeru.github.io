@@ -391,6 +391,8 @@ hr {
 .gt-post-content a {
   transition: all 0.3s;
   border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+  white-space: nowrap;
+  word-break: break-all;
 }
 .gt-post-content img {
   display: block;
@@ -400,7 +402,7 @@ hr {
 }
 .gt-post-content p {
   line-height: 1.75em;
-  margin-bottom: 1.25em;
+  margin-bottom: 1em;
   font-size: 16px;
   letter-spacing: 0.06em;
 }
