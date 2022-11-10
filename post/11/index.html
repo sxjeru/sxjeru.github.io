@@ -6,7 +6,7 @@
 
 <title>本人对 Stable Diffusion 的全部探索 | Eru&#39;s Home</title>
 
-<link rel="shortcut icon" href="https://blog.sxjeru.top/favicon.ico?v=1667113390882">
+<link rel="shortcut icon" href="https://blog.sxjeru.top/favicon.ico?v=1668087487833">
 
 <link href="https://fastly.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://blog.sxjeru.top/styles/main.css">
@@ -96,7 +96,7 @@
             
         </div>
         <div style="text-align: center">
-            <form id="gridea-search-form" style="position: relative" data-update="1667113390882"
+            <form id="gridea-search-form" style="position: relative" data-update="1668087487833"
                 action="/search/">
                 <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
                 <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
@@ -163,7 +163,7 @@ notebook 中第一个单元格需要手动去掉 2-5 行注释。下载模型推
 <h3 id="3-kaggle-font-colorcyan一周至少免费-30hfont">3. Kaggle <font color=Cyan>(一周至少免费 30h)</font></h3>
 <p>这家提供了 Tesla P100-PCIE，性能中上。虽然内存也不是很多，但这里内存占满不会像 Colab 一样强退进程，而是会缓慢持续运行。加上免费时间充足，存储空间也给不少，所以值得一试~</p>
 <p>今天突然发现它有提供 Tesla T4 x2，太香了！基准测试见后。</p>
-<p><strong>推荐 notebook：<a href="https://www.kaggle.com/code/akaneninomiya/stablediffusionui-adapted-to-novelaileaks" target="_blank">StableDiffusionUI</a></strong></p>
+<p><strong>推荐 notebook：<a href="https://www.kaggle.com/code/sxjeru/stablediffusion-webui-update" target="_blank">StableDiffusionUI</a></strong></p>
 <p>先注册账号，然后进入上面的网址，选择右上角<code>Copy &amp; Edit</code>，更改右侧“Settings”中的<code>ACCELERATOR</code>为 GPU，<br>
 <code>PERSISTENCE</code>为 Files only，并打开<code>Internet on</code>选项。</p>
 <p>若无法切换到 GPU，请先前往右侧下方提示处验证手机号。<br>
@@ -199,7 +199,7 @@ notebook 中第一个单元格需要手动去掉 2-5 行注释。下载模型推
 <li><strong>注册/登录 ngrok 后，前往<a href="https://dashboard.ngrok.com/get-started/your-authtoken" target="_blank">授权页</a>可获得 Authtoken；</strong></li>
 <li>需添加参数<code>--ngrok [Authtoken]</code>，可选参数<code>--ngrok-region [region]</code>，具体参考<a href="https://ngrok.com/docs/ngrok-agent/config#config-region" target="_blank">文档</a>，默认为 us；</li>
 <li>使用时请去掉<code>--share</code>参数，但不必去掉<code>--gradio-debug</code>；</li>
-<li><strong><font color=#ff6969>webui 默认给的是 http，若访问白屏请将网址改为 https</font></strong>；</li>
+<li><strong><font color=#ff6969>webui 默认给的是 http，若访问白屏或一直加载中请将网址改为 https</font></strong>；</li>
 <li>webui 会先给出隧道网址，如果找不到可以稍微往上翻翻；</li>
 <li><strong>只能同时创建一个隧道，否则报错 Access denied；</strong></li>
 <li>个人感觉 ngrok 更加稳定，也更安全，推荐各位尝试。</li>
