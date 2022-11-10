@@ -6,7 +6,7 @@
 
 <title>本人对 Stable Diffusion 的全部探索 | Eru&#39;s Home</title>
 
-<link rel="shortcut icon" href="https://blog.sxjeru.top/favicon.ico?v=1668087487833">
+<link rel="shortcut icon" href="https://blog.sxjeru.top/favicon.ico?v=1668087806056">
 
 <link href="https://fastly.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://blog.sxjeru.top/styles/main.css">
@@ -96,7 +96,7 @@
             
         </div>
         <div style="text-align: center">
-            <form id="gridea-search-form" style="position: relative" data-update="1668087487833"
+            <form id="gridea-search-form" style="position: relative" data-update="1668087806056"
                 action="/search/">
                 <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
                 <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
@@ -193,6 +193,7 @@ notebook 中第一个单元格需要手动去掉 2-5 行注释。下载模型推
 <li>根据实际资源使用情况，合理添加<code>--medvram</code>、<code>--lowvram</code>、<code>--lowram</code>；</li>
 <li><code>--share</code>请务必搭配<code>--gradio-auth [username]:[password]</code>使用；</li>
 <li>纯 CPU 需添加的参数已从<code>--skip-torch-cuda-test --no-half --precision full</code>简化为<code>--use-cpu</code>；</li>
+<li>若出现<code>Torch is not able to use GPU</code>相关报错，请先尝试<a href="https://pytorch.org/get-started/locally/" target="_blank">更新 PyTorch</a>；</li>
 </ul>
 <h3 id="ngrok-使用指南">ngrok 使用指南：</h3>
 <ul>
