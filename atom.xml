@@ -2,13 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.sxjeru.top</id>
     <title>Eru&apos;s Home</title>
-    <updated>2022-12-01T15:21:56.522Z</updated>
+    <updated>2022-12-22T13:49:32.417Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.sxjeru.top"/>
     <link rel="self" href="https://blog.sxjeru.top/atom.xml"/>
     <logo>https://blog.sxjeru.top/images/avatar.png</logo>
     <icon>https://blog.sxjeru.top/favicon.ico</icon>
     <rights>All rights reserved 2022, Eru&apos;s Home</rights>
+    <entry>
+        <title type="html"><![CDATA[【No Future/端音 乱希】全社资源汉化整理（小说+画集+RPG）]]></title>
+        <id>https://blog.sxjeru.top/post/12/</id>
+        <link href="https://blog.sxjeru.top/post/12/">
+        </link>
+        <updated>2022-12-21T12:40:21.000Z</updated>
+        <summary type="html"><![CDATA[<p>近期尝试了该社的新作<b>《女杰・和弦 Heroines' Chord》</b>，发现其中的角色都出自该社之前的作品。</p>
+<p>由于咱对 这方面题材 比较感兴趣，加上之前玩过同社“念动少女”那部作品，感觉画风配音都还不错，<br>
+便想借机整理该社的资源，并了解一下各个角色背后的故事。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>近期尝试了该社的新作<b>《女杰・和弦 Heroines' Chord》</b>，发现其中的角色都出自该社之前的作品。</p>
+<p>由于咱对 这方面题材 比较感兴趣，加上之前玩过同社“念动少女”那部作品，感觉画风配音都还不错，<br>
+便想借机整理该社的资源，并了解一下各个角色背后的故事。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[本人对 Stable Diffusion 的全部探索]]></title>
         <id>https://blog.sxjeru.top/post/11/</id>
@@ -156,49 +171,6 @@
 <li>感谢其他翻译贡献者：judema8 (mamaruo)、595623175 (村雨)。</li>
 <li>译文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank">CC BY-NC-SA 4.0</a> 共享，转载请署名 @sxjeru。</li>
 </ol>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[迷宫物语 本体资源+BGM+Joiplay修复版]]></title>
-        <id>https://blog.sxjeru.top/post/4/</id>
-        <link href="https://blog.sxjeru.top/post/4/">
-        </link>
-        <updated>2021-07-28T14:32:32.000Z</updated>
-        <summary type="html"><![CDATA[<!-- wp:paragraph -->
-<p>花了5天时间通关本作，感觉剧情与CG中规中矩，女性全语音好评。两位女主都挺♂棒的，咱都挺喜欢~</p>
-<!-- /wp:paragraph -->
-<!-- wp:paragraph -->
-<p>话说这作品可是有 <strong>奴隶tag</strong> 的，最后还能玩成纯爱可还行。</p>
-<!-- /wp:paragraph -->
-<p>下面两位就是 <span style="color:#b88e1c;">托尔蒂 </span>和 <span style="color:#71a60f;">法侬 </span>了。（两位女主）</p>
-<p><img src="https://file.sxjeru.top/Blog/images/20.png" alt="ZZdays02011" loading="lazy" style="
-    max-width: 100%;
-    display: inline;
-    width: 25%;"><img src="https://file.sxjeru.top/Blog/images/21.png" alt="ZZdays02021" loading="lazy" style="
-    max-width: 100%;
-    display: inline;
-    width: 31%;"></p>
-<!-- wp:paragraph -->
-<p>别急，资源在下面——</p>
-<!-- /wp:paragraph -->
-]]></summary>
-        <content type="html"><![CDATA[<!-- wp:paragraph -->
-<p>花了5天时间通关本作，感觉剧情与CG中规中矩，女性全语音好评。两位女主都挺♂棒的，咱都挺喜欢~</p>
-<!-- /wp:paragraph -->
-<!-- wp:paragraph -->
-<p>话说这作品可是有 <strong>奴隶tag</strong> 的，最后还能玩成纯爱可还行。</p>
-<!-- /wp:paragraph -->
-<p>下面两位就是 <span style="color:#b88e1c;">托尔蒂 </span>和 <span style="color:#71a60f;">法侬 </span>了。（两位女主）</p>
-<p><img src="https://file.sxjeru.top/Blog/images/20.png" alt="ZZdays02011" loading="lazy" style="
-    max-width: 100%;
-    display: inline;
-    width: 25%;"><img src="https://file.sxjeru.top/Blog/images/21.png" alt="ZZdays02021" loading="lazy" style="
-    max-width: 100%;
-    display: inline;
-    width: 31%;"></p>
-<!-- wp:paragraph -->
-<p>别急，资源在下面——</p>
-<!-- /wp:paragraph -->
 ]]></content>
     </entry>
 </feed>
