@@ -391,8 +391,8 @@ hr {
 .gt-post-content a {
   transition: all 0.3s;
   border-bottom: 1px solid rgba(0, 0, 0, 0.26);
-  white-space: nowrap;
   word-break: break-all;
+  display: inline-block;
 }
 .gt-post-content img {
   display: block;
