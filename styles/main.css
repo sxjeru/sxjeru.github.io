@@ -392,7 +392,7 @@ hr {
   transition: all 0.3s;
   border-bottom: 1px solid rgba(0, 0, 0, 0.26);
   word-break: break-all;
-  display: inline-block;
+  display: inline-flex;
 }
 .gt-post-content img {
   display: block;
