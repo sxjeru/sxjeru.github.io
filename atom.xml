@@ -2,13 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.sxjeru.top</id>
     <title>Eru&apos;s Home</title>
-    <updated>2023-01-02T13:33:25.038Z</updated>
+    <updated>2023-01-11T04:54:13.093Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.sxjeru.top"/>
     <link rel="self" href="https://blog.sxjeru.top/atom.xml"/>
     <logo>https://blog.sxjeru.top/images/avatar.png</logo>
     <icon>https://blog.sxjeru.top/favicon.ico</icon>
     <rights>All rights reserved 2023, Eru&apos;s Home</rights>
+    <entry>
+        <title type="html"><![CDATA[ATRI -My Dear Moments- 本体+(漫画+番剧)]]></title>
+        <id>https://blog.sxjeru.top/post/13/</id>
+        <link href="https://blog.sxjeru.top/post/13/">
+        </link>
+        <updated>2023-01-11T02:45:35.000Z</updated>
+        <summary type="html"><![CDATA[<p>官网：<a  href="https://atri-mdm.com/"  target="_blank">https://atri-mdm.com/</a><br>
+steam：<a  href="https://store.steampowered.com/app/1230140/ATRI_My_Dear_Moments/"  target="_blank">https://store.steampowered.com/app/1230140/ATRI_My_Dear_Moments/</a></p>
+]]></summary>
+        <content type="html"><![CDATA[<p>官网：<a  href="https://atri-mdm.com/"  target="_blank">https://atri-mdm.com/</a><br>
+steam：<a  href="https://store.steampowered.com/app/1230140/ATRI_My_Dear_Moments/"  target="_blank">https://store.steampowered.com/app/1230140/ATRI_My_Dear_Moments/</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【No Future/端音乱希】全社资源汉化整理（小说+画集+RPG）]]></title>
         <id>https://blog.sxjeru.top/post/12/</id>
@@ -146,31 +159,6 @@
 <p>没错，一切为了“结缘”嘛——</p>
 <p>话说这“格子迷宫”的玩法咱第一次接触还挺上头，连玩几天都停不下来 2333~</p>
 <p>不说废话了，资源见下。（均为 Onedrive，国内可裸连；用了短链接，若无法访问请回复。）</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[为什么 MCreator 很糟糕？]]></title>
-        <id>https://blog.sxjeru.top/post/Why-MCreator-Sucks/</id>
-        <link href="https://blog.sxjeru.top/post/Why-MCreator-Sucks/">
-        </link>
-        <updated>2021-08-23T01:14:33.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>译者前排声明：</strong></p>
-<ol>
-<li>原文撰写时间已无从考证，可以肯定是2018年之前（可能是2015年之前）所成，因此<font  color="ff6969"><strong>本文内容很可能部分或全部过时</strong></font>，请辩证看待。</li>
-<li>非专业翻译，无法达到“信达雅”三标准，如果你介意，请提出更高质量的翻译建议。</li>
-<li>文中所有自称都仅代表作者，并非为译者。</li>
-<li>感谢其他翻译贡献者：judema8 (mamaruo)、595623175 (村雨)。</li>
-<li>译文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank">CC BY-NC-SA 4.0</a> 共享，转载请署名 @sxjeru。</li>
-</ol>
-]]></summary>
-        <content type="html"><![CDATA[<p><strong>译者前排声明：</strong></p>
-<ol>
-<li>原文撰写时间已无从考证，可以肯定是2018年之前（可能是2015年之前）所成，因此<font  color="ff6969"><strong>本文内容很可能部分或全部过时</strong></font>，请辩证看待。</li>
-<li>非专业翻译，无法达到“信达雅”三标准，如果你介意，请提出更高质量的翻译建议。</li>
-<li>文中所有自称都仅代表作者，并非为译者。</li>
-<li>感谢其他翻译贡献者：judema8 (mamaruo)、595623175 (村雨)。</li>
-<li>译文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank">CC BY-NC-SA 4.0</a> 共享，转载请署名 @sxjeru。</li>
-</ol>
 ]]></content>
     </entry>
 </feed>
