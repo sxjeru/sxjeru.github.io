@@ -2,13 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.sxjeru.top</id>
     <title>Eru&apos;s Home</title>
-    <updated>2023-01-11T06:19:32.040Z</updated>
+    <updated>2023-01-17T09:11:08.519Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.sxjeru.top"/>
     <link rel="self" href="https://blog.sxjeru.top/atom.xml"/>
     <logo>https://blog.sxjeru.top/images/avatar.png</logo>
     <icon>https://blog.sxjeru.top/favicon.ico</icon>
     <rights>All rights reserved 2023, Eru&apos;s Home</rights>
+    <entry>
+        <title type="html"><![CDATA[Unless Terminalia 本体+汉化]]></title>
+        <id>https://blog.sxjeru.top/post/14/</id>
+        <link href="https://blog.sxjeru.top/post/14/">
+        </link>
+        <updated>2023-01-17T08:18:30.000Z</updated>
+        <summary type="html"><![CDATA[<p>官网：<a  href="https://whirlpool.co.jp/unlessterminalia"  target="_blank">https://whirlpool.co.jp/unlessterminalia</a></p>
+]]></summary>
+        <content type="html"><![CDATA[<p>官网：<a  href="https://whirlpool.co.jp/unlessterminalia"  target="_blank">https://whirlpool.co.jp/unlessterminalia</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ATRI -My Dear Moments- 本体+(漫画+番剧)]]></title>
         <id>https://blog.sxjeru.top/post/13/</id>
@@ -134,31 +145,6 @@ steam：<a  href="https://store.steampowered.com/app/1230140/ATRI_My_Dear_Moment
         <content type="html"><![CDATA[<p>最近开坑的一部新作，感觉画风不错~</p>
 <p>作品比较新，是从bt上爬下来的，现在边做种边放出网盘（Onedrive）下载分流。</p>
 <span style="color:#ff0000;">已附带软电池破解补丁。</span>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[天結1+天結2（本体&BGM&CG）]]></title>
-        <id>https://blog.sxjeru.top/post/5/</id>
-        <link href="https://blog.sxjeru.top/post/5/">
-        </link>
-        <updated>2021-09-02T12:17:03.000Z</updated>
-        <summary type="html"><![CDATA[<p>最近玩了下天结1，感觉 CG 与 CV 都挺良心的，就是剧本稍有欠缺。</p>
-<p><span style="color: #d69b7c;">（<del>玩到第6章了，越来越觉得男女主才是打破秩序的邪恶 boss 了</del>…… </span></p>
-<p><span style="color: #d69b7c;"><del>好在盖伊达尔更坏</del>……）</span></p>
-<p><span style="color: #abffab;">玩完了，没办法给很高的评价。</span></p>
-<p>套路是西天取经老套路，一路上降服一个就收一个当队友；女性全部倒贴，男主被迫开后宫……</p>
-<p>没错，一切为了“结缘”嘛——</p>
-<p>话说这“格子迷宫”的玩法咱第一次接触还挺上头，连玩几天都停不下来 2333~</p>
-<p>不说废话了，资源见下。（均为 Onedrive，国内可裸连；用了短链接，若无法访问请回复。）</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>最近玩了下天结1，感觉 CG 与 CV 都挺良心的，就是剧本稍有欠缺。</p>
-<p><span style="color: #d69b7c;">（<del>玩到第6章了，越来越觉得男女主才是打破秩序的邪恶 boss 了</del>…… </span></p>
-<p><span style="color: #d69b7c;"><del>好在盖伊达尔更坏</del>……）</span></p>
-<p><span style="color: #abffab;">玩完了，没办法给很高的评价。</span></p>
-<p>套路是西天取经老套路，一路上降服一个就收一个当队友；女性全部倒贴，男主被迫开后宫……</p>
-<p>没错，一切为了“结缘”嘛——</p>
-<p>话说这“格子迷宫”的玩法咱第一次接触还挺上头，连玩几天都停不下来 2333~</p>
-<p>不说废话了，资源见下。（均为 Onedrive，国内可裸连；用了短链接，若无法访问请回复。）</p>
 ]]></content>
     </entry>
 </feed>
