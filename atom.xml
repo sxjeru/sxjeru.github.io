@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.sxjeru.top</id>
     <title>Eru&apos;s Home</title>
-    <updated>2023-01-17T10:40:49.713Z</updated>
+    <updated>2023-01-17T10:43:05.321Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.sxjeru.top"/>
     <link rel="self" href="https://blog.sxjeru.top/atom.xml"/>
@@ -16,8 +16,10 @@
         </link>
         <updated>2023-01-17T08:18:30.000Z</updated>
         <summary type="html"><![CDATA[<p>官网：<a  href="https://whirlpool.co.jp/unlessterminalia"  target="_blank">https://whirlpool.co.jp/unlessterminalia</a></p>
+<p>vndb：<a  href="https://vndb.org/v32757"  target="_blank">https://vndb.org/v32757</a></p>
 ]]></summary>
         <content type="html"><![CDATA[<p>官网：<a  href="https://whirlpool.co.jp/unlessterminalia"  target="_blank">https://whirlpool.co.jp/unlessterminalia</a></p>
+<p>vndb：<a  href="https://vndb.org/v32757"  target="_blank">https://vndb.org/v32757</a></p>
 ]]></content>
     </entry>
     <entry>
