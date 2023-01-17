@@ -6,7 +6,7 @@
 
 <title>【No Future/端音乱希】全社资源汉化整理（小说+画集+RPG） | Eru&#39;s Home</title>
 
-<link rel="shortcut icon" href="https://blog.sxjeru.top/favicon.ico?v=1673946666341">
+<link rel="shortcut icon" href="https://blog.sxjeru.top/favicon.ico?v=1673952045180">
 
 <link href="https://fastly.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://blog.sxjeru.top/styles/main.css">
@@ -96,7 +96,7 @@
             
         </div>
         <div style="text-align: center">
-            <form id="gridea-search-form" style="position: relative" data-update="1673946666341"
+            <form id="gridea-search-form" style="position: relative" data-update="1673952045180"
                 action="/search/">
                 <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
                 <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
@@ -150,12 +150,14 @@
 <p><strong>译本一</strong>（高质量，仅 1-2 话）：<a  href="https://pan.sxjeru.top/s/L9Eim"  target="_blank">https://pan.sxjeru.top/s/L9Eim</a><br>
 第1话分 A、B 版，A 为原文翻译，B 为作者微调版。<br>
 译者很认真，不仅有校对，并且有分字体与字号，观感非常不错。<br>
-目前确认该译本出自绅士仓库某位贡献者，后续及出处得等咱拿到仓库账号后再说了。</p>
+目前确认该译本出自绅士仓库某位贡献者，<s>后续及出处得等咱拿到仓库账号后再说了。</s><br>
+已确认仓库中无后续译本。</p>
 <p><strong>译本二</strong>（全 1-4 话）：<a  href="https://pan.sxjeru.top/s/5jVUL"  target="_blank">https://pan.sxjeru.top/s/5jVUL</a><br>
 第 1-2 话与译本一内容完全一致，质量高，仅排版上有些许差异。<br>
 第3话<strong>肉眼可见错字</strong>，可能没有校对，但流畅度还是不错的。<br>
 第4话大概也未经校对，流畅度稍差。<br>
-后两话的校对版可能已经在绅士仓库发布，等咱有账号后会立刻更新。</p>
+<s>后两话的校对版可能已经在绅士仓库发布，等咱有账号后会立刻更新。</s><br>
+确认后两话为他人翻译，未找到优质替代。</p>
 <p><font color=#D7BDE2><strong>译本三</strong>（全4话）</font>：<a  href="https://pan.sxjeru.top/s/8Ogu5"  target="_blank">https://pan.sxjeru.top/s/8Ogu5</a><br>
 大致略读，感觉流畅度不如上面的版本，甚至有机翻感，并且有部分内容直接复制的上面译本。（第3话后半部分与第4话）<br>
 另外该译本是图片版的，无法选中。通篇为一种字体与大小。<br>
@@ -201,7 +203,7 @@ Steam 中文介绍：<a  href="https://store.steampowered.com/app/1551510/_/?l=s
         
 
         
-            <script src='//file.sxjeru.top/Blog/script/waline.js'></script>
+            <!--<script src='//file.sxjeru.top/Blog/script/waline.js'></script>-->
 <link href='//file.sxjeru.top/Blog/script/waline.css' rel='stylesheet' />
 
 <style>
@@ -212,11 +214,11 @@ Steam 中文介绍：<a  href="https://store.steampowered.com/app/1551510/_/?l=s
 	}
 </style>
 
-
 	<div id="waline"></div>
 
-<script>
-	Waline.init({
+<script type="module">
+	import { init } from 'https://file.sxjeru.top/Blog/script/waline.mjs';
+	init({
 		el: '#waline',
 		login: 'enable',
 		serverURL: 'waline.sxjeru.top',
