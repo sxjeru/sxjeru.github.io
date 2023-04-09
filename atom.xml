@@ -2,13 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.sxjeru.top</id>
     <title>Eru&apos;s Home</title>
-    <updated>2023-03-24T04:01:44.255Z</updated>
+    <updated>2023-04-09T07:48:49.753Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.sxjeru.top"/>
     <link rel="self" href="https://blog.sxjeru.top/atom.xml"/>
     <logo>https://blog.sxjeru.top/images/avatar.png</logo>
     <icon>https://blog.sxjeru.top/favicon.ico</icon>
     <rights>All rights reserved 2023, Eru&apos;s Home</rights>
+    <entry>
+        <title type="html"><![CDATA[《原神》如何照亮现实]]></title>
+        <id>https://blog.sxjeru.top/post/15/</id>
+        <link href="https://blog.sxjeru.top/post/15/">
+        </link>
+        <updated>2023-04-09T01:58:51.000Z</updated>
+        <summary type="html"><![CDATA[<p>游戏之所以被称为“第九艺术”，正因为其既有现实的影子，又有独特的艺术创造性。<br>
+为了能更好地认识这部作品，咱列举了一些本作影射现实的元素，既是自我学习，也是知识分享。<br>
+欢迎评论补充讨论。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>游戏之所以被称为“第九艺术”，正因为其既有现实的影子，又有独特的艺术创造性。<br>
+为了能更好地认识这部作品，咱列举了一些本作影射现实的元素，既是自我学习，也是知识分享。<br>
+欢迎评论补充讨论。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Unless Terminalia 本体+汉化]]></title>
         <id>https://blog.sxjeru.top/post/14/</id>
@@ -132,21 +147,6 @@ steam：<a  href="https://store.steampowered.com/app/1230140/ATRI_My_Dear_Moment
         <summary type="html"><![CDATA[<p>由于在网上找了好久才找到资源，故在此提供 白圣女与黑牧师（白聖女と黒牧師）多格式资源，方便各位观赏。</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>由于在网上找了好久才找到资源，故在此提供 白圣女与黑牧师（白聖女と黒牧師）多格式资源，方便各位观赏。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[俺の恋天使がポンコツすぎてコワ～い。(特別限定版+汉化+特典)]]></title>
-        <id>https://blog.sxjeru.top/post/6/</id>
-        <link href="https://blog.sxjeru.top/post/6/">
-        </link>
-        <updated>2021-10-16T03:52:05.000Z</updated>
-        <summary type="html"><![CDATA[<p>最近开坑的一部新作，感觉画风不错~</p>
-<p>作品比较新，是从bt上爬下来的，现在边做种边放出网盘（Onedrive）下载分流。</p>
-<span style="color:#ff0000;">已附带软电池破解补丁。</span>
-]]></summary>
-        <content type="html"><![CDATA[<p>最近开坑的一部新作，感觉画风不错~</p>
-<p>作品比较新，是从bt上爬下来的，现在边做种边放出网盘（Onedrive）下载分流。</p>
-<span style="color:#ff0000;">已附带软电池破解补丁。</span>
 ]]></content>
     </entry>
 </feed>
