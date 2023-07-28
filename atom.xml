@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.sxjeru.top</id>
     <title>Eru&apos;s Home</title>
-    <updated>2023-07-12T07:14:15.749Z</updated>
+    <updated>2023-07-28T03:39:04.967Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.sxjeru.top"/>
     <link rel="self" href="https://blog.sxjeru.top/atom.xml"/>
@@ -25,47 +25,6 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Unless Terminalia 本体+汉化]]></title>
-        <id>https://blog.sxjeru.top/post/14/</id>
-        <link href="https://blog.sxjeru.top/post/14/">
-        </link>
-        <updated>2023-01-17T08:18:30.000Z</updated>
-        <summary type="html"><![CDATA[<p>官网：<a  href="https://whirlpool.co.jp/unlessterminalia"  target="_blank">https://whirlpool.co.jp/unlessterminalia</a></p>
-<p>vndb：<a  href="https://vndb.org/v32757"  target="_blank">https://vndb.org/v32757</a></p>
-]]></summary>
-        <content type="html"><![CDATA[<p>官网：<a  href="https://whirlpool.co.jp/unlessterminalia"  target="_blank">https://whirlpool.co.jp/unlessterminalia</a></p>
-<p>vndb：<a  href="https://vndb.org/v32757"  target="_blank">https://vndb.org/v32757</a></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ATRI -My Dear Moments- 本体+OST+(漫画+番剧)]]></title>
-        <id>https://blog.sxjeru.top/post/13/</id>
-        <link href="https://blog.sxjeru.top/post/13/">
-        </link>
-        <updated>2023-01-11T02:45:35.000Z</updated>
-        <summary type="html"><![CDATA[<p>官网：<a  href="https://atri-mdm.com/"  target="_blank">https://atri-mdm.com/</a><br>
-steam：<a  href="https://store.steampowered.com/app/1230140/ATRI_My_Dear_Moments/"  target="_blank">https://store.steampowered.com/app/1230140/ATRI_My_Dear_Moments/</a></p>
-]]></summary>
-        <content type="html"><![CDATA[<p>官网：<a  href="https://atri-mdm.com/"  target="_blank">https://atri-mdm.com/</a><br>
-steam：<a  href="https://store.steampowered.com/app/1230140/ATRI_My_Dear_Moments/"  target="_blank">https://store.steampowered.com/app/1230140/ATRI_My_Dear_Moments/</a></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【No Future/端音乱希】全社资源汉化整理（小说+画集+RPG）]]></title>
-        <id>https://blog.sxjeru.top/post/12/</id>
-        <link href="https://blog.sxjeru.top/post/12/">
-        </link>
-        <updated>2022-12-21T12:40:21.000Z</updated>
-        <summary type="html"><![CDATA[<p>近期尝试了该社的新作<b>《女杰・和弦 Heroines' Chord》</b>，发现其中的角色都出自该社之前的作品。</p>
-<p>由于咱对*这方面题材*比较感兴趣，加上之前玩过同社“念动少女”那部作品，感觉画风配音都还不错，<br>
-便想借机整理该社的资源，并了解一下各个角色背后的故事。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>近期尝试了该社的新作<b>《女杰・和弦 Heroines' Chord》</b>，发现其中的角色都出自该社之前的作品。</p>
-<p>由于咱对*这方面题材*比较感兴趣，加上之前玩过同社“念动少女”那部作品，感觉画风配音都还不错，<br>
-便想借机整理该社的资源，并了解一下各个角色背后的故事。</p>
-]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[本人对 Stable Diffusion 的全部探索]]></title>
         <id>https://blog.sxjeru.top/post/11/</id>
         <link href="https://blog.sxjeru.top/post/11/">
@@ -79,74 +38,82 @@ steam：<a  href="https://store.steampowered.com/app/1230140/ATRI_My_Dear_Moment
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[现在立刻就想对哥哥说我是妹妹！本体+汉化+特典]]></title>
-        <id>https://blog.sxjeru.top/post/10/</id>
-        <link href="https://blog.sxjeru.top/post/10/">
+        <title type="html"><![CDATA[为什么 MCreator 很糟糕？]]></title>
+        <id>https://blog.sxjeru.top/post/Why-MCreator-Sucks/</id>
+        <link href="https://blog.sxjeru.top/post/Why-MCreator-Sucks/">
         </link>
-        <updated>2022-10-04T12:50:38.000Z</updated>
-        <summary type="html"><![CDATA[<p>原名：いますぐお兄ちゃんに妹だっていいたい！</p>
-<p>官网：<a href="https://koichoco.net/imaimo/" target="_blank">https://koichoco.net/imaimo/</a></p>
+        <updated>2021-08-23T01:14:33.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>译者前排声明：</strong></p>
+<ol>
+<li>原文撰写时间已无从考证，可以肯定是2018年之前（可能是2015年之前）所成，因此<font  color="ff6969"><strong>本文内容很可能部分或全部过时</strong></font>，请辩证看待。</li>
+<li>非专业翻译，无法达到“信达雅”三标准，如果你介意，请提出更高质量的翻译建议。</li>
+<li>文中所有自称都仅代表作者，并非为译者。</li>
+<li>感谢其他翻译贡献者：judema8 (mamaruo)、595623175 (村雨)。</li>
+<li>译文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank">CC BY-NC-SA 4.0</a> 共享，转载请署名 @sxjeru。</li>
+</ol>
 ]]></summary>
-        <content type="html"><![CDATA[<p>原名：いますぐお兄ちゃんに妹だっていいたい！</p>
-<p>官网：<a href="https://koichoco.net/imaimo/" target="_blank">https://koichoco.net/imaimo/</a></p>
+        <content type="html"><![CDATA[<p><strong>译者前排声明：</strong></p>
+<ol>
+<li>原文撰写时间已无从考证，可以肯定是2018年之前（可能是2015年之前）所成，因此<font  color="ff6969"><strong>本文内容很可能部分或全部过时</strong></font>，请辩证看待。</li>
+<li>非专业翻译，无法达到“信达雅”三标准，如果你介意，请提出更高质量的翻译建议。</li>
+<li>文中所有自称都仅代表作者，并非为译者。</li>
+<li>感谢其他翻译贡献者：judema8 (mamaruo)、595623175 (村雨)。</li>
+<li>译文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank">CC BY-NC-SA 4.0</a> 共享，转载请署名 @sxjeru。</li>
+</ol>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[小白兔电商  游戏推荐+资源下载]]></title>
-        <id>https://blog.sxjeru.top/post/9/</id>
-        <link href="https://blog.sxjeru.top/post/9/">
+        <title type="html"><![CDATA[【碧蓝航线】Azur Lane Crosswave 解包指南+探索历程]]></title>
+        <id>https://blog.sxjeru.top/post/2/</id>
+        <link href="https://blog.sxjeru.top/post/2/">
         </link>
-        <updated>2022-04-30T13:57:10.000Z</updated>
-        <summary type="html"><![CDATA[<p>资源放在后面，先上补票链接：<a href="https://store.steampowered.com/app/1111460/_/" target="_blank" rel="noopener">https://store.steampowered.com/app/1111460/_/</a></p>
-<p>（游戏简介亦可见上）</p>
+        <updated>2021-02-15T14:09:50.000Z</updated>
+        <summary type="html"><![CDATA[<details>
+<summary>无关紧要的话（点击查看）</summary>
+2020年情人节，<a href="https://store.steampowered.com/app/1150080/" target="_blank" rel="noopener">Azur Lane Crosswave</a>（以下简称ALC）正式在Steam上发售。本以为吾等手游绝缘体这辈子没机会玩一回碧蓝，机会居然自己跑来了。目前主线S评级全通，也懒得再肝下去，就动起了拆包的念头。毕竟虽然Steam上评价有些惨，不过本人觉得建模与CG还可以。
+<br><br>
+（话说这立绘该不会直接搬的手游上的吧……）
+</details>
 <br>
-<p>本作属于掺杂了经营成分的一部国产Galgame，具有一定的特色。</p>
+<h3><strong><span style="color: #ff6868;" data-darkreader-inline-color="">前排注意：任何解包行为需把握资源用途，为尊重作品著作权，请勿用于商业行为或大范围传播！</span></strong></h3>
+<h3><span style="color: #90acff;" data-darkreader-inline-color=""><strong>此处仅提供教程与经验，无资源。</strong></span></h3>
+<p>本人共计探索了超过4天，终于摸透了包里的数据。目前除了3D模型还未测试（已可提取），其余资源都可成功提取。<br><br>
+大体流程（目录）：</p>
+<ol>
+ 	<li>PAK数据包解包</li>
+ 	<li>虚幻4资源文件提取（CG get~）</li>
+ 	<li>Spine动画提取*</li>
+ 	<li>3D模型构建*（暂无，有生之年更新）</li>
+</ol>
 ]]></summary>
-        <content type="html"><![CDATA[<p>资源放在后面，先上补票链接：<a href="https://store.steampowered.com/app/1111460/_/" target="_blank" rel="noopener">https://store.steampowered.com/app/1111460/_/</a></p>
-<p>（游戏简介亦可见上）</p>
+        <content type="html"><![CDATA[<details>
+<summary>无关紧要的话（点击查看）</summary>
+2020年情人节，<a href="https://store.steampowered.com/app/1150080/" target="_blank" rel="noopener">Azur Lane Crosswave</a>（以下简称ALC）正式在Steam上发售。本以为吾等手游绝缘体这辈子没机会玩一回碧蓝，机会居然自己跑来了。目前主线S评级全通，也懒得再肝下去，就动起了拆包的念头。毕竟虽然Steam上评价有些惨，不过本人觉得建模与CG还可以。
+<br><br>
+（话说这立绘该不会直接搬的手游上的吧……）
+</details>
 <br>
-<p>本作属于掺杂了经营成分的一部国产Galgame，具有一定的特色。</p>
+<h3><strong><span style="color: #ff6868;" data-darkreader-inline-color="">前排注意：任何解包行为需把握资源用途，为尊重作品著作权，请勿用于商业行为或大范围传播！</span></strong></h3>
+<h3><span style="color: #90acff;" data-darkreader-inline-color=""><strong>此处仅提供教程与经验，无资源。</strong></span></h3>
+<p>本人共计探索了超过4天，终于摸透了包里的数据。目前除了3D模型还未测试（已可提取），其余资源都可成功提取。<br><br>
+大体流程（目录）：</p>
+<ol>
+ 	<li>PAK数据包解包</li>
+ 	<li>虚幻4资源文件提取（CG get~）</li>
+ 	<li>Spine动画提取*</li>
+ 	<li>3D模型构建*（暂无，有生之年更新）</li>
+</ol>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[四ツ目神 -再会-（本体-繁中&CG&BGM）]]></title>
-        <id>https://blog.sxjeru.top/post/8/</id>
-        <link href="https://blog.sxjeru.top/post/8/">
+        <title type="html"><![CDATA[Hello World!]]></title>
+        <id>https://blog.sxjeru.top/post/1/</id>
+        <link href="https://blog.sxjeru.top/post/1/">
         </link>
-        <updated>2022-03-12T15:52:54.000Z</updated>
-        <summary type="html"><![CDATA[<p>重操旧业了属于是。（笑）</p>
-<p>steam 介绍（建议支持正版）：<a href="https://store.steampowered.com/app/1399240/_/?l=tchinese" target="_blank" rel="noopener">https://store.steampowered.com/app/1399240/_/?l=tchinese</a></p>
-<img class="alignnone size-full wp-image-631" src="https://file.sxjeru.top/Blog/images/19.jpg" alt="19" width="460" height="215">
+        <updated>2020-11-22T01:54:23.000Z</updated>
+        <summary type="html"><![CDATA[<p>新的开始？</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>重操旧业了属于是。（笑）</p>
-<p>steam 介绍（建议支持正版）：<a href="https://store.steampowered.com/app/1399240/_/?l=tchinese" target="_blank" rel="noopener">https://store.steampowered.com/app/1399240/_/?l=tchinese</a></p>
-<img class="alignnone size-full wp-image-631" src="https://file.sxjeru.top/Blog/images/19.jpg" alt="19" width="460" height="215">
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【RPG】Pray game 综合资源下载]]></title>
-        <id>https://blog.sxjeru.top/post/3/</id>
-        <link href="https://blog.sxjeru.top/post/3/">
-        </link>
-        <updated>2022-02-04T10:02:45.000Z</updated>
-        <summary type="html"><![CDATA[<p>为便于各位下载，已将游戏介绍移至<a href="https://blog.sxjeru.top/post/3-1/">此处</a>，有需要者可自行前往查看。</p>
-<p><del>该游戏目前无最新版本+DLC的民间汉化</del>，不过其已加入Kagura Games的汉化计划。（<a href="https://store.steampowered.com/app/1551530/" target="_blank" rel="noopener">steam页</a>）</p>
-<p>让我们拭目以待吧。若官方汉化发布，本帖也会及时更新。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>为便于各位下载，已将游戏介绍移至<a href="https://blog.sxjeru.top/post/3-1/">此处</a>，有需要者可自行前往查看。</p>
-<p><del>该游戏目前无最新版本+DLC的民间汉化</del>，不过其已加入Kagura Games的汉化计划。（<a href="https://store.steampowered.com/app/1551530/" target="_blank" rel="noopener">steam页</a>）</p>
-<p>让我们拭目以待吧。若官方汉化发布，本帖也会及时更新。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[繁中] 白圣女与黑牧师 话1-55+番外 (PDF+JPG+EPUB)]]></title>
-        <id>https://blog.sxjeru.top/post/7/</id>
-        <link href="https://blog.sxjeru.top/post/7/">
-        </link>
-        <updated>2021-12-21T15:28:53.000Z</updated>
-        <summary type="html"><![CDATA[<p>由于在网上找了好久才找到资源，故在此提供 白圣女与黑牧师（白聖女と黒牧師）多格式资源，方便各位观赏。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>由于在网上找了好久才找到资源，故在此提供 白圣女与黑牧师（白聖女と黒牧師）多格式资源，方便各位观赏。</p>
+        <content type="html"><![CDATA[<p>新的开始？</p>
 ]]></content>
     </entry>
 </feed>
