@@ -2,13 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.sxjeru.top</id>
     <title>Eru&apos;s Home</title>
-    <updated>2023-08-18T12:42:39.200Z</updated>
+    <updated>2023-08-23T00:36:19.010Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.sxjeru.top"/>
     <link rel="self" href="https://blog.sxjeru.top/atom.xml"/>
     <logo>https://blog.sxjeru.top/images/avatar.png</logo>
     <icon>https://blog.sxjeru.top/favicon.ico</icon>
     <rights>All rights reserved 2023, Eru&apos;s Home</rights>
+    <entry>
+        <title type="html"><![CDATA[关于日本官宣核污染水排海]]></title>
+        <id>https://blog.sxjeru.top/post/16/</id>
+        <link href="https://blog.sxjeru.top/post/16/">
+        </link>
+        <updated>2023-08-22T23:13:53.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[《原神》如何照亮现实]]></title>
         <id>https://blog.sxjeru.top/post/15/</id>
@@ -136,17 +143,6 @@ steam：<a  href="https://store.steampowered.com/app/1230140/ATRI_My_Dear_Moment
         <content type="html"><![CDATA[<p>为便于各位下载，已将游戏介绍移至<a href="https://blog.sxjeru.top/post/3-1/">此处</a>，有需要者可自行前往查看。</p>
 <p><del>该游戏目前无最新版本+DLC的民间汉化</del>，不过其已加入Kagura Games的汉化计划。（<a href="https://store.steampowered.com/app/1551530/" target="_blank" rel="noopener">steam页</a>）</p>
 <p>让我们拭目以待吧。若官方汉化发布，本帖也会及时更新。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[繁中] 白圣女与黑牧师 话1-55+番外 (PDF+JPG+EPUB)]]></title>
-        <id>https://blog.sxjeru.top/post/7/</id>
-        <link href="https://blog.sxjeru.top/post/7/">
-        </link>
-        <updated>2021-12-21T15:28:53.000Z</updated>
-        <summary type="html"><![CDATA[<p>由于在网上找了好久才找到资源，故在此提供 白圣女与黑牧师（白聖女と黒牧師）多格式资源，方便各位观赏。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>由于在网上找了好久才找到资源，故在此提供 白圣女与黑牧师（白聖女と黒牧師）多格式资源，方便各位观赏。</p>
 ]]></content>
     </entry>
 </feed>
