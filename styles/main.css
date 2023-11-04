@@ -1204,7 +1204,7 @@ html[data-theme='dark']:root {
   --waline-active-color: #78cebe;
 }
 :root {
-  --waline-font-size: 15px;
+  --waline-font-size: 15px !important;
 }
 .post-container .leancloud_visitors {
     margin: 10px 0 0px 0;
