@@ -397,7 +397,7 @@ hr {
   bottom: 2px;
   height: 1.5px;
   width: 0;
-  background-color: rgb(156 209 2.925%);
+  background-color: rgba(156, 209, 234, 0.8);
   transition: width 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .gt-post-content a:hover::after {
@@ -697,6 +697,11 @@ hr {
   font-size: 22px;
   font-weight: normal;
   vertical-align: middle;
+  transition: all 0.3s ease;
+}
+.post-list-container .post-inner .post .post-left .post-title:hover {
+  color: #b3d9eb !important;
+  letter-spacing: 1.5px;
 }
 .post-list-container .post-inner .post .post-left .post-abstract {
   width: 100%;
@@ -704,7 +709,7 @@ hr {
   line-height: 1.5;
 }
 .post-list-container .post-inner .post .post-left .post-abstract * {
-  font-size: 13px;
+  font-size: 13.5px;
   margin-bottom: 0;
 }
 .post-list-container .post-inner .post .post-left .post-info {
@@ -718,7 +723,7 @@ hr {
   margin-left: 10px;
 }
 .post-list-container .post-inner .post:hover {
-  transform: scale(1.012);
+  box-shadow: 0px 0px 10px -1px #90e7ed80;
 }
 .post-list-container .post-inner .post .post-feature-image {
   width: 200px;
@@ -906,7 +911,7 @@ hr {
   padding: 24px 32px;
 }
 .site-footer {
-  font-size: 12px;
+  font-size: 12.5px;
   text-align: center;
   padding: 24px;
 }
@@ -1101,11 +1106,8 @@ hr {
     background-size: contain;
     background-repeat: no-repeat;
 }
-.gt-post-content {
-    font-size: 16px;
-}
 .gt-c-content-color-second {
-    color: #869ca7!important;
+    color: #869ca7 !important;
 }
 audio {
     margin: 15px;
@@ -1151,7 +1153,7 @@ code {
     margin-right: 10px !important;
 }
 .wl-count {
-    font-size: 2.25em !important;
+    font-size: 1.75em !important;
 }
 .wl-empty {
     font-size: 13px; !important
@@ -1200,6 +1202,9 @@ html[data-theme='dark']:root {
   --waline-info-color: #e0eaef;
   --waline-theme-color: #64b587;
   --waline-active-color: #78cebe;
+}
+:root {
+  --waline-font-size: 15px;
 }
 .post-container .leancloud_visitors {
     margin: 10px 0 0px 0;
