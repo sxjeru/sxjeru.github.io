@@ -1,4 +1,4 @@
-@import url(https://fastly.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.min.css);
+@import url(https://cdn.bootcdn.net/ajax/libs/firacode/6.2.0/fira_code.min.css);
 /*! modern-normalize | MIT License | https://github.com/sindresorhus/modern-normalize */
 /* Document
    ========================================================================== */
@@ -361,7 +361,6 @@ hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 .main {
   max-width: 100%;
@@ -385,13 +384,30 @@ hr {
   margin: 0px 0px 0px 10px;
   border: none;
 }
-.gt-post-content .post-content a {
-  color: #5e5e5e;
-}
 .gt-post-content a {
   transition: all 0.3s;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.26);
   word-break: break-all;
+  display: inline-flex;
+  position: relative;
+}
+.gt-post-content a::after {
+  content: "";
+  position: absolute;
+  left: 0%;
+  bottom: 2px;
+  height: 1.5px;
+  width: 0;
+  background-color: rgb(156 209 2.925%);
+  transition: width 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.gt-post-content a:hover::after {
+  width: 100%;
+}
+.gt-post-content del > a {
+  display: inline !important;
+  text-decoration: line-through !important;
+}
+.gt-post-content del {
   display: inline-flex;
 }
 .gt-post-content img {
