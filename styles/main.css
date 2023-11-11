@@ -672,7 +672,7 @@ hr {
 }
 .post-list-container .post-inner .post {
   margin: 30px;
-  border-radius: 4px;
+  border-radius: 15px;
   padding: 28px;
   display: flex;
   flex-direction: row;
@@ -723,7 +723,7 @@ hr {
   margin-left: 10px;
 }
 .post-list-container .post-inner .post:hover {
-  box-shadow: 0px 0px 10px -1px #90e7ed80;
+  box-shadow: 0px 0px 10px 0px #90e7ed80;
 }
 .post-list-container .post-inner .post .post-feature-image {
   width: 200px;
