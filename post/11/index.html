@@ -322,7 +322,7 @@ notebook 中第一个单元格需要手动去掉 2-5 行注释。下载模型推
 		el: '#waline',
 		login: 'enable',
 		serverURL: 'waline.sxjeru.top',
-		path: window.location.pathname.replace(/\/$/,''),
+		path: window.location.pathname.replace(/\/?$/, '/'),
 		pageSize: 10,
 		recordIp: true,
 		pageview: true,

@@ -220,7 +220,7 @@ F12，右上角齿轮，左边往下找到“Language”，修改为中文即可
 		el: '#waline',
 		login: 'enable',
 		serverURL: 'waline.sxjeru.top',
-		path: window.location.pathname.replace(/\/$/,''),
+		path: window.location.pathname.replace(/\/?$/, '/'),
 		pageSize: 10,
 		recordIp: true,
 		pageview: true,

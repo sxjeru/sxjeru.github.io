@@ -255,7 +255,7 @@ Steam 中文介绍：<a  href="https://store.steampowered.com/app/1551510/_/?l=s
 		el: '#waline',
 		login: 'enable',
 		serverURL: 'waline.sxjeru.top',
-		path: window.location.pathname.replace(/\/$/,''),
+		path: window.location.pathname.replace(/\/?$/, '/'),
 		pageSize: 10,
 		recordIp: true,
 		pageview: true,

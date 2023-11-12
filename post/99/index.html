@@ -198,7 +198,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		el: '#waline',
 		login: 'enable',
 		serverURL: 'waline.sxjeru.top',
-		path: window.location.pathname.replace(/\/$/,''),
+		path: window.location.pathname.replace(/\/?$/, '/'),
 		pageSize: 10,
 		recordIp: true,
 		pageview: true,
