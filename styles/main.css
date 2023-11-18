@@ -711,6 +711,14 @@ hr {
   display: block;
   text-align: left;
 }
+.post-list-container .post-inner .post .post-left .post-abstract h1,
+.post-list-container .post-inner .post .post-left .post-abstract h2,
+.post-list-container .post-inner .post .post-left .post-abstract h3,
+.post-list-container .post-inner .post .post-left .post-abstract h4,
+.post-list-container .post-inner .post .post-left .post-abstract h5,
+.post-list-container .post-inner .post .post-left .post-abstract h6 {
+  padding-top: 0px;
+}
 .post-list-container .post-inner .post .post-left .post-info {
   margin-top: 20px;
 }
