@@ -707,6 +707,10 @@ hr {
   font-size: 13.5px;
   margin-bottom: 0;
 }
+.post-list-container .post-inner .post .post-left .post-abstract center {
+  display: block;
+  text-align: left;
+}
 .post-list-container .post-inner .post .post-left .post-info {
   margin-top: 20px;
 }
