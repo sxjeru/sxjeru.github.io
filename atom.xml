@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.sxjeru.top</id>
     <title>Eru&apos;s Home</title>
-    <updated>2023-11-12T01:28:47.135Z</updated>
+    <updated>2023-11-18T12:00:38.805Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.sxjeru.top"/>
     <link rel="self" href="https://blog.sxjeru.top/atom.xml"/>
@@ -10,11 +10,26 @@
     <icon>https://blog.sxjeru.top/favicon.ico</icon>
     <rights>All rights reserved 2023, Eru&apos;s Home</rights>
     <entry>
+        <title type="html"><![CDATA[枫丹之忆 —— 原神 4.2 观后感]]></title>
+        <id>https://blog.sxjeru.top/post/17/</id>
+        <link href="https://blog.sxjeru.top/post/17/">
+        </link>
+        <updated>2023-11-18T06:40:50.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>“为芙宁娜女士献上世间最为诚挚的谢意。”</strong></p>
+]]></summary>
+        <content type="html"><![CDATA[<p><strong>“为芙宁娜女士献上世间最为诚挚的谢意。”</strong></p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[关于日本官宣核污染水排海]]></title>
         <id>https://blog.sxjeru.top/post/16/</id>
         <link href="https://blog.sxjeru.top/post/16/">
         </link>
         <updated>2023-08-22T23:13:53.000Z</updated>
+        <summary type="html"><![CDATA[<p>8月24日，日本官方宣布开始向海洋排放经处理的核污染水。我国外交部对此持明确反对立场。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>8月24日，日本官方宣布开始向海洋排放经处理的核污染水。我国外交部对此持明确反对立场。</p>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[《原神》如何照亮现实]]></title>
@@ -128,19 +143,6 @@ steam：<a  href="https://store.steampowered.com/app/1230140/ATRI_My_Dear_Moment
         <content type="html"><![CDATA[<p>重操旧业了属于是。（笑）</p>
 <p>steam 介绍（建议支持正版）：<a href="https://store.steampowered.com/app/1399240/_/?l=tchinese" target="_blank" rel="noopener">https://store.steampowered.com/app/1399240/_/?l=tchinese</a></p>
 <img class="alignnone size-full wp-image-631" src="https://file.sxjeru.top/Blog/images/19.jpg" alt="19" width="460" height="215">
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【RPG】Pray game 综合资源下载]]></title>
-        <id>https://blog.sxjeru.top/post/3/</id>
-        <link href="https://blog.sxjeru.top/post/3/">
-        </link>
-        <updated>2022-02-04T10:02:45.000Z</updated>
-        <summary type="html"><![CDATA[<p>为便于各位下载，已将游戏介绍移至<a href="https://blog.sxjeru.top/post/3-1/">此处</a>，有需要者可自行前往查看。</p>
-<p>Steam 补票指路：<a href="https://store.steampowered.com/app/1551530/" target="_blank" rel="noopener">https://store.steampowered.com/app/1551530/</a></p>
-]]></summary>
-        <content type="html"><![CDATA[<p>为便于各位下载，已将游戏介绍移至<a href="https://blog.sxjeru.top/post/3-1/">此处</a>，有需要者可自行前往查看。</p>
-<p>Steam 补票指路：<a href="https://store.steampowered.com/app/1551530/" target="_blank" rel="noopener">https://store.steampowered.com/app/1551530/</a></p>
 ]]></content>
     </entry>
 </feed>
