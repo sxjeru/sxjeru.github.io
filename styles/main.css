@@ -430,6 +430,7 @@ hr {
 }
 .gt-post-content pre {
   margin-bottom: 18px;
+  overflow: auto;
 }
 .gt-post-content blockquote {
   padding: 16px;
@@ -517,11 +518,6 @@ hr {
   width: 100%;
   overflow: auto;
   display: block;
-}
-@supports (font-variation-settings: normal) {
-  .gt-post-content pre code {
-    font-family: "Fira Code VF", Menlo, Monaco, Consolas, "Courier New", "PingFang SC", -apple-system, BlinkMacSystemFont, opensans, Optima, "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
-  }
 }
 .gt-post-content kbd {
   margin: 0 0.1em;
