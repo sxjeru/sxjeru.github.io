@@ -1,45 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
 <url>
-  <loc>https://blog.sxjeru.top/</loc>
-</url>
-<url>
-  <loc>https://blog.sxjeru.top/post/about</loc>
-</url>
-<url>
-  <loc>https://blog.sxjeru.top/post/-1/</loc>
-</url>
-<url>
-  <loc>https://blog.sxjeru.top/post/3/</loc>
-</url>
-<url>
-  <loc>https://blog.sxjeru.top/post/3-1/</loc>
-</url>
-<url>
-  <loc>https://blog.sxjeru.top/post/7/</loc>
-</url>
-<url>
-  <loc>https://blog.sxjeru.top/post/6/</loc>
-</url>
-<url>
-  <loc>https://blog.sxjeru.top/post/5/</loc>
-</url>
-<url>
-  <loc>https://blog.sxjeru.top/post/Why-MCreator-Sucks/</loc>
-</url>
-<url>
-  <loc>https://blog.sxjeru.top/post/4/</loc>
-</url>
-<url>
-  <loc>https://blog.sxjeru.top/post/2/</loc>
-</url>
-<url>
-  <loc>https://blog.sxjeru.top/post/1/</loc>
-</url>
-<url>
-<span class="text2Link">  <loc><a href="https://blog.sxjeru.top/atom.xml" target="_blank">https://blog.sxjeru.top/atom.xml</a></loc>
-</span></url>
-<url>
-  <loc></loc>
+    <loc>https://blog.sxjeru.top/atom.xml</loc>
 </url>
 </urlset>
