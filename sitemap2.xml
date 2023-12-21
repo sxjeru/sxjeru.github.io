@@ -4,7 +4,7 @@
     <loc>https://blog.sxjeru.top/</loc>
   </url>
   <url>
-    <loc>https://blog.sxjeru.top/post/about</loc>
+    <loc>https://blog.sxjeru.top/post/about/</loc>
   </url>
   <url>
     <loc>https://blog.sxjeru.top/post/-1/</loc>
@@ -53,5 +53,14 @@
   </url>
   <url>
     <loc>https://blog.sxjeru.top/post/13/</loc>
+  </url>
+  <url>
+    <loc>https://blog.sxjeru.top/post/14/</loc>
+  </url>
+  <url>
+    <loc>https://blog.sxjeru.top/post/15/</loc>
+  </url>
+  <url>
+    <loc>https://blog.sxjeru.top/post/17/</loc>
   </url>
 </urlset>
