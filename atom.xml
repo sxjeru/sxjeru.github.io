@@ -2,13 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.sxjeru.top</id>
     <title>Eru&apos;s Home</title>
-    <updated>2024-03-23T04:48:40.500Z</updated>
+    <updated>2024-03-25T14:18:50.617Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.sxjeru.top"/>
     <link rel="self" href="https://blog.sxjeru.top/atom.xml"/>
     <logo>https://blog.sxjeru.top/images/avatar.png</logo>
     <icon>https://blog.sxjeru.top/favicon.ico</icon>
     <rights>All rights reserved 2024, Eru&apos;s Home</rights>
+    <entry>
+        <title type="html"><![CDATA[SEEC 及其分社游戏 资源综合]]></title>
+        <id>https://blog.sxjeru.top/post/seec/</id>
+        <link href="https://blog.sxjeru.top/post/seec/">
+        </link>
+        <updated>2024-03-25T13:22:56.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[枫丹之忆 —— 原神 4.2 观后感]]></title>
         <id>https://blog.sxjeru.top/post/17/</id>
@@ -128,21 +135,6 @@ steam：<a  href="https://store.steampowered.com/app/1230140/ATRI_My_Dear_Moment
 <p>（游戏简介亦可见上）</p>
 <br>
 <p>本作属于掺杂了经营成分的一部国产Galgame，具有一定的特色。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[四ツ目神 -再会-（本体-繁中&CG&BGM）]]></title>
-        <id>https://blog.sxjeru.top/post/8/</id>
-        <link href="https://blog.sxjeru.top/post/8/">
-        </link>
-        <updated>2022-03-12T15:52:54.000Z</updated>
-        <summary type="html"><![CDATA[<p>重操旧业了属于是。（笑）</p>
-<p>steam 介绍（建议支持正版）：<a href="https://store.steampowered.com/app/1399240/_/?l=tchinese" target="_blank" rel="noopener">https://store.steampowered.com/app/1399240/_/?l=tchinese</a></p>
-<img class="alignnone size-full wp-image-631" src="https://file.sxjeru.top/Blog/images/19.jpg" alt="19" width="460" height="215">
-]]></summary>
-        <content type="html"><![CDATA[<p>重操旧业了属于是。（笑）</p>
-<p>steam 介绍（建议支持正版）：<a href="https://store.steampowered.com/app/1399240/_/?l=tchinese" target="_blank" rel="noopener">https://store.steampowered.com/app/1399240/_/?l=tchinese</a></p>
-<img class="alignnone size-full wp-image-631" src="https://file.sxjeru.top/Blog/images/19.jpg" alt="19" width="460" height="215">
 ]]></content>
     </entry>
 </feed>
