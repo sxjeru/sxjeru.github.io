@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.sxjeru.top</id>
     <title>Eru&apos;s Home</title>
-    <updated>2024-03-25T14:18:50.617Z</updated>
+    <updated>2024-04-01T02:05:14.265Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.sxjeru.top"/>
     <link rel="self" href="https://blog.sxjeru.top/atom.xml"/>
@@ -15,6 +15,19 @@
         <link href="https://blog.sxjeru.top/post/seec/">
         </link>
         <updated>2024-03-25T13:22:56.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[黄昏旅店 Re:newal (繁中+设定集)]]></title>
+        <id>https://blog.sxjeru.top/post/18/</id>
+        <link href="https://blog.sxjeru.top/post/18/">
+        </link>
+        <updated>2024-02-29T06:38:47.000Z</updated>
+        <summary type="html"><![CDATA[<p>Steam 介绍：<a href="https://store.steampowered.com/app/2622260/_Renewal/?l=tchinese" target="_blank" rel="noopener" one-link-mark="yes">https://store.steampowered.com/app/2622260/</a></p>
+<p>原则上建议支持正版，虽然价格有些过于魅力了。（日厂刻板印象 +1）</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>Steam 介绍：<a href="https://store.steampowered.com/app/2622260/_Renewal/?l=tchinese" target="_blank" rel="noopener" one-link-mark="yes">https://store.steampowered.com/app/2622260/</a></p>
+<p>原则上建议支持正版，虽然价格有些过于魅力了。（日厂刻板印象 +1）</p>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[枫丹之忆 —— 原神 4.2 观后感]]></title>
@@ -118,23 +131,6 @@ steam：<a  href="https://store.steampowered.com/app/1230140/ATRI_My_Dear_Moment
 ]]></summary>
         <content type="html"><![CDATA[<p>原名：いますぐお兄ちゃんに妹だっていいたい！</p>
 <p>官网：<a href="https://koichoco.net/imaimo/" target="_blank">https://koichoco.net/imaimo/</a></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[小白兔电商  游戏推荐+资源下载]]></title>
-        <id>https://blog.sxjeru.top/post/9/</id>
-        <link href="https://blog.sxjeru.top/post/9/">
-        </link>
-        <updated>2022-04-30T13:57:10.000Z</updated>
-        <summary type="html"><![CDATA[<p>资源放在后面，先上补票链接：<a href="https://store.steampowered.com/app/1111460/_/" target="_blank" rel="noopener">https://store.steampowered.com/app/1111460/_/</a></p>
-<p>（游戏简介亦可见上）</p>
-<br>
-<p>本作属于掺杂了经营成分的一部国产Galgame，具有一定的特色。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>资源放在后面，先上补票链接：<a href="https://store.steampowered.com/app/1111460/_/" target="_blank" rel="noopener">https://store.steampowered.com/app/1111460/_/</a></p>
-<p>（游戏简介亦可见上）</p>
-<br>
-<p>本作属于掺杂了经营成分的一部国产Galgame，具有一定的特色。</p>
 ]]></content>
     </entry>
 </feed>
