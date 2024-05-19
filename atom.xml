@@ -2,13 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.sxjeru.top</id>
     <title>Eru&apos;s Home</title>
-    <updated>2024-04-21T07:03:46.714Z</updated>
+    <updated>2024-05-19T12:01:23.579Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.sxjeru.top"/>
     <link rel="self" href="https://blog.sxjeru.top/atom.xml"/>
     <logo>https://blog.sxjeru.top/images/avatar.png</logo>
     <icon>https://blog.sxjeru.top/favicon.ico</icon>
     <rights>All rights reserved 2024, Eru&apos;s Home</rights>
+    <entry>
+        <title type="html"><![CDATA[Twitter/微博/说说 开源替代 —— Memos]]></title>
+        <id>https://blog.sxjeru.top/post/19/</id>
+        <link href="https://blog.sxjeru.top/post/19/">
+        </link>
+        <updated>2024-05-19T11:17:54.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[SEEC 及其分社游戏 资源综合]]></title>
         <id>https://blog.sxjeru.top/post/seec/</id>
@@ -118,19 +125,6 @@ steam：<a  href="https://store.steampowered.com/app/1230140/ATRI_My_Dear_Moment
 ]]></summary>
         <content type="html"><![CDATA[<p>随着10月7日的 NovelAI 模型“泄漏”事件，利用SD生成图片便开始大火。咱作为一穷学生，手头唯一有过的显卡，还是亮机用的 ATI HD 4600，因此只能去<strong>借用</strong>云GPU资源了。</p>
 <p>下面会给出一些SD相关的资源，<strong>教你如何在云上跑</strong>，以及个人生成的可供欣赏的图片。<s>(大概会持续更新)</s></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[现在立刻就想对哥哥说我是妹妹！本体+汉化+特典]]></title>
-        <id>https://blog.sxjeru.top/post/10/</id>
-        <link href="https://blog.sxjeru.top/post/10/">
-        </link>
-        <updated>2022-10-04T12:50:38.000Z</updated>
-        <summary type="html"><![CDATA[<p>原名：いますぐお兄ちゃんに妹だっていいたい！</p>
-<p>官网：<a href="https://koichoco.net/imaimo/" target="_blank">https://koichoco.net/imaimo/</a></p>
-]]></summary>
-        <content type="html"><![CDATA[<p>原名：いますぐお兄ちゃんに妹だっていいたい！</p>
-<p>官网：<a href="https://koichoco.net/imaimo/" target="_blank">https://koichoco.net/imaimo/</a></p>
 ]]></content>
     </entry>
 </feed>
