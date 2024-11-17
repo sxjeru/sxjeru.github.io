@@ -1128,10 +1128,10 @@ code {
     color: #ff82ea !important;
 }
 .wl-panel {
-    background: transparent;
+    background: transparent !important;
 }
 .wl-editor:focus, .wl-input:focus {
-    background: transparent;
+    background: #232323 !important;
 }
 .wl-header label {
     color: #64b587;
