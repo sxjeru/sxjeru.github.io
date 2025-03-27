@@ -545,7 +545,7 @@ hr {
   font-style: italic;
 }
 .navbar {
-  padding: 38px 96px;
+  padding: 24px 10%;
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -666,7 +666,7 @@ hr {
   max-width: 1000px;
 }
 .post-list-container .post-inner .post {
-  margin: 30px;
+  margin: 0 20px 30px;
   border-radius: 15px;
   padding: 28px;
   display: flex;
@@ -748,7 +748,7 @@ hr {
   align-self: center;
 }
 .pagination-container .prev-page {
-  margin: 0 15px;
+  margin: 0 65px;
   font-size: 14px;
 }
 .pagination-container .next-page {
