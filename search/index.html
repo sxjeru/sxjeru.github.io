@@ -8,7 +8,7 @@
 
 <title>搜索 | Eru&#39;s Home</title>
 
-<link rel="shortcut icon" href="https://blog.sxjeru.top/favicon.ico?v=1743061087318">
+<link rel="shortcut icon" href="https://blog.sxjeru.top/favicon.ico?v=1743061590712">
 
 <link href="https://file.sxjeru.top/Blog/css/fontawesome-all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://blog.sxjeru.top/styles/main.css">
@@ -57,6 +57,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </script>
 
 
+<script>
+    // 偶尔展示推广
+    (function() {
+        // Get current view count from localStorage
+        let viewCount = parseInt(localStorage.getItem('viewCount') || '0');
+        
+        // Increment the view count
+        viewCount++;
+        
+        // Store the updated count
+        localStorage.setItem('viewCount', viewCount.toString());
+        
+        // Calculate the current cycle position (0-3)
+        const cyclePosition = (viewCount - 1) % 4;
+        
+        // If the element should be hidden, add a style tag that hides it before rendering
+        if (cyclePosition !== 0) {
+            document.write('<style>.slim-links-container { display: none !important; }</style>');
+        }
+    })();
+</script>
     <script src="https://fastly.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
     <script src="https://fastly.jsdelivr.net/npm/ejs@3.1.6/ejs.min.js"></script>
     <script src="https://blog.sxjeru.top/media/gridea-search/gridea-search.js"></script>
@@ -121,7 +142,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             
         </div>
         <div style="text-align: center">
-            <form id="gridea-search-form" style="position: relative" data-update="1743061087318"
+            <form id="gridea-search-form" style="position: relative" data-update="1743061590712"
                 action="/search/">
                 <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
                 <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
@@ -133,7 +154,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- 超精简居中链接栏 - 黑色主题风格 -->
 <div class="slim-links-container">
     <div class="slim-links-box gt-bg-theme-color-second">
-        <span class="slim-text">推点自己的作品</span>
+        <span class="slim-text">也推点自己的作品</span>
         <span class="slim-divider">•</span>
         <a href="https://dwz.sxjeru.top/dIBj" class="slim-link">缇宝 ×《最美好的前途》(Прекрасное Далёко)</a>
         <!-- <span class="slim-divider">•</span> -->
@@ -145,21 +166,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         display: flex;
         justify-content: center;
         margin: 0px auto 15px;
+        width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
     }
     
     .slim-links-box {
-        display: inline-flex;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
         align-items: center;
         background-color: #1d1e1f; /* theme-color-second for black */
-        padding: 6px 20px;
+        padding: 6px 16px;
         border-radius: 30px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        max-width: 100%;
     }
     
     .slim-text {
         color: #e0eaef; /* content-color-first for black */
         font-size: 14px;
         padding-right: 5px;
+        white-space: nowrap;
     }
     
     .slim-link {
@@ -170,9 +198,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         border-radius: 3px;
         transition: all 0.2s ease;
         background: none !important;
+        word-break: break-word;
+        text-align: center;
     }
     
-    .slim-link:hover {
+    .slim-link:hover, .slim-link:active {
         color: #7ac99e !important;
         background-color: rgba(100, 181, 135, 0.15) !important;
         box-shadow: 0 0 8px rgba(100, 181, 135, 0.3);
@@ -183,6 +213,52 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         margin: 0 4px;
         font-size: 14px;
         font-weight: bold;
+    }
+    
+    /* 移动端适配 */
+    @media (max-width: 767px) {
+        .slim-links-container {
+            margin: 10px auto 0; /* 移动端顶部留出10px空隙，底部无间隔 */
+        }
+        
+        .slim-links-box {
+            padding: 5px 10px; /* 减少内边距使布局更紧凑 */
+            flex-direction: column;
+            gap: 2px; /* 减少间距使布局更紧凑 */
+        }
+        
+        .slim-text, .slim-link, .slim-divider {
+            font-size: 12px;
+        }
+        
+        .slim-divider {
+            display: none; /* 在移动端隐藏分隔符 */
+        }
+        
+        .slim-link {
+            width: 100%;
+            padding: 4px 6px; /* 减少内边距使布局更紧凑 */
+            /* margin-top: 2px;*/
+        }
+        
+        .slim-text {
+            padding-right: 0; /* 移除右侧内边距 */
+        }
+    }
+    
+    /* 小型移动设备 */
+    @media (max-width: 320px) {
+        .slim-links-box {
+            padding: 4px 8px; /* 进一步减少内边距 */
+        }
+        
+        .slim-text, .slim-link {
+            font-size: 12px;
+        }
+        
+        .slim-link {
+            padding: 3px 5px; /* 更小的内边距 */
+        }
     }
 </style>
 
@@ -198,7 +274,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     }
 </script>
 
-        <div id="gridea-search-result" data-update="1743061087318">
+        <div id="gridea-search-result" data-update="1743061590712">
             <div class="searching" style="font-size: 18px; margin-top: 50px;">
                 <i class="fa fa-sync-alt fa-spin"></i>&nbsp;&nbsp;搜索中......
                 <br><br>
